@@ -5,7 +5,7 @@ export const ai = arraySidebar([
   {
     text: "面试题",
     icon: ICONS.INTERVIEW,
-    prefix: "interview-questions/",
+    prefix: "面试题/",
     children: [
       { text: "⭐️AI 应用开发面试指南", link: "ai-interview-guide" },
       { text: "大模型基础面试题总结", link: "llm-interview-questions" },
@@ -20,7 +20,7 @@ export const ai = arraySidebar([
   {
     text: "大模型基础",
     icon: ICONS.MACHINE_LEARNING,
-    prefix: "llm-basis/",
+    prefix: "大模型基础/",
     children: [
       { text: "万字拆解 LLM 运行机制", link: "llm-operation-mechanism" },
       { text: "大模型 API 调用工程实践", link: "llm-api-engineering" },
@@ -71,7 +71,7 @@ export const ai = arraySidebar([
   {
     text: "AI 系统设计",
     icon: ICONS.DESIGN,
-    prefix: "system-design/",
+    prefix: "系统设计/",
     children: [
       {
         text: "AI 应用系统设计",

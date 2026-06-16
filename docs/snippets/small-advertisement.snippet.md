@@ -1,4 +1,4 @@
-<a class="article-promo-image" href="/about-the-author/zhishixingqiu-two-years.html">
+<a class="article-promo-image" href="/关于作者/zhishixingqiu-two-years.html">
   <img
     src="https://oss.javaguide.cn/xingqiu/xingqiu.png"
     alt="JavaGuide 官方知识星球"

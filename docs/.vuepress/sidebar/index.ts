@@ -16,32 +16,32 @@ import {
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
-  "/ai-coding/": aiCoding,
-  "/ai/": ai,
-  "/cs-basics/": csBasics,
-  "/open-source-project/": openSourceProject,
-  "/books/": books,
-  "/about-the-author/": aboutTheAuthor,
-  "/high-quality-technical-articles/": highQualityTechnicalArticles,
-  "/zhuanlan/": zhuanlan,
+  "/AI编程/": aiCoding,
+  "/AI/": ai,
+  "/计算机基础/": csBasics,
+  "/开源项目/": openSourceProject,
+  "/技术书单/": books,
+  "/关于作者/": aboutTheAuthor,
+  "/优质技术文章/": highQualityTechnicalArticles,
+  "/星球专栏/": zhuanlan,
   // 必须放在最后面
   "/": [
     {
       text: "项目介绍",
       icon: ICONS.STAR,
       collapsible: true,
-      prefix: "javaguide/",
+      prefix: "项目介绍/",
       children: ["intro", "use-suggestion", "contribution-guideline", "faq"],
     },
     {
       text: "面试准备（必看）",
       icon: ICONS.INTERVIEW,
       collapsible: true,
-      prefix: "interview-preparation/",
+      prefix: "面试准备/",
       children: [
         {
           text: "面试准备知识体系",
-          link: "/interview-preparation/",
+          link: "/面试准备/",
         },
         "backend-interview-plan",
         "teach-you-how-to-prepare-for-the-interview-hand-in-hand",
@@ -66,7 +66,7 @@ export default sidebar({
         },
         {
           text: "基础",
-          prefix: "basis/",
+          prefix: "基础/",
           icon: ICONS.BASIC,
           children: [
             "java-basic-questions-01",
@@ -87,7 +87,7 @@ export default sidebar({
         },
         {
           text: "集合",
-          prefix: "collection/",
+          prefix: "集合/",
           icon: ICONS.CONTAINER,
           children: [
             "java-collection-questions-01",
@@ -108,7 +108,7 @@ export default sidebar({
         },
         {
           text: "并发编程",
-          prefix: "concurrent/",
+          prefix: "并发/",
           icon: ICONS.PERFORMANCE,
           children: [
             "java-concurrent-questions-01",
@@ -158,7 +158,7 @@ export default sidebar({
         },
         {
           text: "新特性",
-          prefix: "new-features/",
+          prefix: "新特性/",
           icon: ICONS.FEATURED,
           collapsible: true,
           children: [
@@ -185,12 +185,12 @@ export default sidebar({
     {
       text: "数据库",
       icon: ICONS.DATABASE,
-      prefix: "database/",
+      prefix: "数据库/",
       collapsible: true,
       children: [
         {
           text: "数据库知识体系",
-          link: "/database/",
+          link: "/数据库/",
         },
         {
           text: "基础",
@@ -281,12 +281,12 @@ export default sidebar({
     {
       text: "开发工具",
       icon: ICONS.TOOL,
-      prefix: "tools/",
+      prefix: "开发工具/",
       collapsible: true,
       children: [
         {
           text: "开发工具知识体系",
-          link: "/tools/",
+          link: "/开发工具/",
         },
         {
           text: "Maven",
@@ -321,7 +321,7 @@ export default sidebar({
     },
     {
       text: "常用框架",
-      prefix: "system-design/framework/",
+      prefix: "系统设计/常用框架/",
       icon: ICONS.COMPONENT,
       collapsible: true,
       children: [
@@ -350,16 +350,16 @@ export default sidebar({
     {
       text: "系统设计",
       icon: ICONS.DESIGN,
-      prefix: "system-design/",
+      prefix: "系统设计/",
       collapsible: true,
       children: [
         {
           text: "系统设计知识体系",
-          link: "/system-design/",
+          link: "/系统设计/",
         },
         {
           text: "基础知识",
-          prefix: "basis/",
+          prefix: "基础/",
           icon: ICONS.BASIC,
           collapsible: true,
           children: [
@@ -375,7 +375,7 @@ export default sidebar({
         },
         {
           text: "认证授权",
-          prefix: "security/",
+          prefix: "安全/",
           icon: ICONS.SECURITY,
           collapsible: true,
           children: [
@@ -388,7 +388,7 @@ export default sidebar({
         },
         {
           text: "数据安全",
-          prefix: "security/",
+          prefix: "安全/",
           icon: ICONS.SECURITY,
           collapsible: true,
           children: [
@@ -411,12 +411,12 @@ export default sidebar({
     {
       text: "分布式",
       icon: ICONS.DISTRIBUTED,
-      prefix: "distributed-system/",
+      prefix: "分布式系统/",
       collapsible: true,
       children: [
         {
           text: "分布式系统知识体系",
-          link: "/distributed-system/",
+          link: "/分布式系统/",
         },
         {
           text: "⭐分布式高频面试题",
@@ -425,7 +425,7 @@ export default sidebar({
         {
           text: "理论&算法&协议",
           icon: ICONS.ALGORITHM,
-          prefix: "protocol/",
+          prefix: "理论与协议/",
           collapsible: true,
           children: [
             { text: "CAP定理与BASE理论详解", link: "cap-and-base-theorem" },
@@ -508,12 +508,12 @@ export default sidebar({
     {
       text: "高性能",
       icon: ICONS.PERFORMANCE,
-      prefix: "high-performance/",
+      prefix: "高性能/",
       collapsible: true,
       children: [
         {
           text: "高性能系统知识体系",
-          link: "/high-performance/",
+          link: "/高性能/",
         },
         {
           text: "⭐高性能系统设计高频面试题",
@@ -541,7 +541,7 @@ export default sidebar({
         },
         {
           text: "消息队列",
-          prefix: "message-queue/",
+          prefix: "消息队列/",
           icon: ICONS.MQ,
           collapsible: true,
           children: [
@@ -557,12 +557,12 @@ export default sidebar({
     {
       text: "高可用",
       icon: ICONS.HIGH_AVAILABLE,
-      prefix: "high-availability/",
+      prefix: "高可用/",
       collapsible: true,
       children: [
         {
           text: "高可用系统知识体系",
-          link: "/high-availability/",
+          link: "/高可用/",
         },
         {
           text: "⭐高可用系统面试题总结",

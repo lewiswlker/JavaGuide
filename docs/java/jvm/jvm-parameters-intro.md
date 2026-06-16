@@ -11,7 +11,7 @@ head:
 ---
 
 > 本文由 JavaGuide 翻译自 [https://www.baeldung.com/jvm-parameters](https://www.baeldung.com/jvm-parameters)，并对文章进行了大量的完善补充。
-> 文档参数 [https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html)
+> 文档参数 [https://docs.oracle.com/javase/8/docs/technotes/开发工具/unix/java.html](https://docs.oracle.com/javase/8/docs/technotes/开发工具/unix/java.html)
 >
 > JDK 版本：1.8 为主，也会补充新版本常用参数
 
@@ -21,7 +21,7 @@ head:
 
 > Java 堆（Java Heap）是 JVM 所管理的内存中最大的一块区域，**所有线程共享**，在虚拟机启动时创建。**此内存区域的唯一目的就是存放对象实例，几乎所有的对象实例以及数组都要在堆上分配内存。**
 
-![内存区域常见配置参数](./pictures/内存区域常见配置参数.png)
+![内存区域常见配置参数](./图片/内存区域常见配置参数.png)
 
 ### 设置堆内存大小 (-Xms 和 -Xmx)
 

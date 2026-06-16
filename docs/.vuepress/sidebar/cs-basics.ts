@@ -3,7 +3,7 @@ import { ICONS, createImportantSection } from "./constants.js";
 export const csBasics = [
   {
     text: "网络",
-    prefix: "network/",
+    prefix: "计算机网络/",
     icon: ICONS.NETWORK,
     children: [
       {
@@ -105,7 +105,7 @@ export const csBasics = [
   },
   {
     text: "操作系统",
-    prefix: "operating-system/",
+    prefix: "操作系统/",
     icon: ICONS.OS,
     children: [
       "operating-system-basic-questions-01",
@@ -119,7 +119,7 @@ export const csBasics = [
   },
   {
     text: "数据结构",
-    prefix: "data-structure/",
+    prefix: "数据结构/",
     icon: ICONS.DATA_STRUCTURE,
     collapsible: true,
     children: [
@@ -133,7 +133,7 @@ export const csBasics = [
   },
   {
     text: "算法",
-    prefix: "algorithms/",
+    prefix: "算法/",
     icon: ICONS.ALGORITHM,
     collapsible: true,
     children: [

@@ -5,7 +5,7 @@ export const highQualityTechnicalArticles = arraySidebar([
   {
     text: "练级攻略",
     icon: ICONS.PERFORMANCE,
-    prefix: "advanced-programmer/",
+    prefix: "进阶程序员/",
     collapsible: false,
     children: [
       "programmer-quickly-learn-new-technology",
@@ -20,7 +20,7 @@ export const highQualityTechnicalArticles = arraySidebar([
   {
     text: "个人经历",
     icon: ICONS.EXPERIENCE,
-    prefix: "personal-experience/",
+    prefix: "个人经验/",
     collapsible: false,
     children: [
       "four-year-work-in-tencent-summary",
@@ -32,7 +32,7 @@ export const highQualityTechnicalArticles = arraySidebar([
   {
     text: "程序员",
     icon: ICONS.CODE,
-    prefix: "programmer/",
+    prefix: "程序员视角/",
     collapsible: false,
     children: [
       "high-value-certifications-for-programmers",
@@ -43,7 +43,7 @@ export const highQualityTechnicalArticles = arraySidebar([
   {
     text: "面试",
     icon: ICONS.INTERVIEW,
-    prefix: "interview/",
+    prefix: "面试经验/",
     collapsible: true,
     children: [
       "the-experience-of-get-offer-from-over-20-big-companies",
@@ -59,7 +59,7 @@ export const highQualityTechnicalArticles = arraySidebar([
   {
     text: "工作",
     icon: ICONS.WORK,
-    prefix: "work/",
+    prefix: "工作/",
     collapsible: true,
     children: [
       "get-into-work-mode-quickly-when-you-join-a-company",

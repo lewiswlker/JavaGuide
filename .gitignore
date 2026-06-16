@@ -25,3 +25,18 @@ docs/cs-basics/network/TODO.md
 PERFORMANCE_NOTES.md
 dist.zip
 /TODO
+
+# 本地私有内容，不进仓库
+# 仅根目录下 . 开头的文件/目录（避免误伤 docs/.vuepress 等子目录）
+/.*
+# Claude Code 配置
+CLAUDE.md
+# Obsidian 产生的文件（画布、数据库、日记等）
+*.canvas
+*.base
+未命名*
+20[0-9][0-9]-[0-9][0-9]-[0-9][0-9].md
+# 个人笔记
+ROADMAP.md
+# Java 编译产物
+*.class

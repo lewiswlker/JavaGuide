@@ -8,43 +8,43 @@ export const aiCoding = arraySidebar([
     children: [
       {
         text: "⭐️Vibe Coding 实用技巧总结",
-        link: "practices/the-cool-tricks-for-vibe-coding",
+        link: "实践经验/the-cool-tricks-for-vibe-coding",
       },
       {
         text: "⭐️Claude Code 使用指南",
-        link: "practices/claudecode-tips",
+        link: "实践经验/claudecode-tips",
       },
       {
         text: "⭐️CLAUDE.md 最佳实践",
-        link: "practices/claude-md-best-practices",
+        link: "实践经验/claude-md-best-practices",
       },
       {
         text: "Claude Code 核心命令详解",
-        link: "practices/claudecode-commands",
+        link: "实践经验/claudecode-commands",
       },
       {
         text: "⭐️AI 编程必备 Skills 推荐",
-        link: "practices/programmer-essential-skills",
+        link: "实践经验/programmer-essential-skills",
       },
       {
         text: "OpenAI Codex 最佳实践指南",
-        link: "practices/codex-best-practices",
+        link: "实践经验/codex-best-practices",
       },
       {
         text: "AI 编程选 CLI 还是 IDE？",
-        link: "practices/cli-vs-ide",
+        link: "实践经验/cli-vs-ide",
       },
       {
         text: "Claude Code Agent View 多会话管理",
-        link: "practices/claudecode-agentview",
+        link: "实践经验/claudecode-agentview",
       },
       {
         text: "AI 编程开放性面试题",
-        link: "practices/ai-ide",
+        link: "实践经验/ai-ide",
       },
       {
         text: "Spec Coding 规范驱动编程",
-        link: "practices/spec-coding",
+        link: "实践经验/spec-coding",
       },
     ],
   },
@@ -54,27 +54,27 @@ export const aiCoding = arraySidebar([
     children: [
       {
         text: "IDEA + Qoder 插件多场景实战",
-        link: "cases/idea-qoder-plugin",
+        link: "实战案例/idea-qoder-plugin",
       },
       {
         text: "Trae + MiniMax 多场景实战",
-        link: "cases/trae-m2.7",
+        link: "实战案例/trae-m2.7",
       },
       {
         text: "Claude Code 接入第三方模型实战",
-        link: "cases/cc-glm5.1",
+        link: "实战案例/cc-glm5.1",
       },
       {
         text: "DeepSeek V4 + Claude Code 实战",
-        link: "cases/deepseek-v4-claude-code",
+        link: "实战案例/deepseek-v4-claude-code",
       },
       {
         text: "MiniMax M3 + Claude Code 实战",
-        link: "cases/cc-m3",
+        link: "实战案例/cc-m3",
       },
       {
         text: "IDEA + CC GUI 插件实战",
-        link: "project/cc-guide",
+        link: "项目/cc-guide",
       },
     ],
   },

@@ -30,14 +30,14 @@
 
 ## 后端面试准备
 
-- [⭐Java 后端面试通关计划（涵盖后端通用体系）](./docs/interview-preparation/backend-interview-plan.md) (一定要看 :+1:)
-- [如何高效准备 Java 面试？](./docs/interview-preparation/teach-you-how-to-prepare-for-the-interview-hand-in-hand.md)
-- [Java 后端面试重点总结](./docs/interview-preparation/key-points-of-interview.md)
-- [Java 学习路线（最新版，4w+ 字）](./docs/interview-preparation/java-roadmap.md)
-- [程序员简历编写指南](./docs/interview-preparation/resume-guide.md)
-- [项目经验指南](./docs/interview-preparation/project-experience-guide.md)
-- [面试太紧张怎么办？](./docs/interview-preparation/how-to-handle-interview-nerves.md)
-- [校招没有实习经历怎么办？实习经历怎么写？](./docs/interview-preparation/internship-experience.md)
+- [⭐Java 后端面试通关计划（涵盖后端通用体系）](./docs/面试准备/backend-interview-plan.md) (一定要看 :+1:)
+- [如何高效准备 Java 面试？](./docs/面试准备/teach-you-how-to-prepare-for-the-interview-hand-in-hand.md)
+- [Java 后端面试重点总结](./docs/面试准备/key-points-of-interview.md)
+- [Java 学习路线（最新版，4w+ 字）](./docs/面试准备/java-roadmap.md)
+- [程序员简历编写指南](./docs/面试准备/resume-guide.md)
+- [项目经验指南](./docs/面试准备/project-experience-guide.md)
+- [面试太紧张怎么办？](./docs/面试准备/how-to-handle-interview-nerves.md)
+- [校招没有实习经历怎么办？实习经历怎么写？](./docs/面试准备/internship-experience.md)
 
 ## Java
 
@@ -45,41 +45,41 @@
 
 **知识点/面试题总结**（必看:+1:）：
 
-- [Java 基础常见知识点&面试题总结(上)](./docs/java/basis/java-basic-questions-01.md)
-- [Java 基础常见知识点&面试题总结(中)](./docs/java/basis/java-basic-questions-02.md)
-- [Java 基础常见知识点&面试题总结(下)](./docs/java/basis/java-basic-questions-03.md)
+- [Java 基础常见知识点&面试题总结(上)](./docs/java/基础/java-basic-questions-01.md)
+- [Java 基础常见知识点&面试题总结(中)](./docs/java/基础/java-basic-questions-02.md)
+- [Java 基础常见知识点&面试题总结(下)](./docs/java/基础/java-basic-questions-03.md)
 
 **重要知识点详解**：
 
-- [为什么 Java 中只有值传递？](./docs/java/basis/why-there-only-value-passing-in-java.md)
-- [Java 序列化详解](./docs/java/basis/serialization.md)
-- [泛型&通配符详解](./docs/java/basis/generics-and-wildcards.md)
-- [Java 反射机制详解](./docs/java/basis/reflection.md)
-- [Java 代理模式详解](./docs/java/basis/proxy.md)
-- [BigDecimal 详解](./docs/java/basis/bigdecimal.md)
-- [Java 魔法类 Unsafe 详解](./docs/java/basis/unsafe.md)
-- [Java SPI 机制详解](./docs/java/basis/spi.md)
-- [Java 语法糖详解](./docs/java/basis/syntactic-sugar.md)
+- [为什么 Java 中只有值传递？](./docs/java/基础/why-there-only-value-passing-in-java.md)
+- [Java 序列化详解](./docs/java/基础/serialization.md)
+- [泛型&通配符详解](./docs/java/基础/generics-and-wildcards.md)
+- [Java 反射机制详解](./docs/java/基础/reflection.md)
+- [Java 代理模式详解](./docs/java/基础/proxy.md)
+- [BigDecimal 详解](./docs/java/基础/bigdecimal.md)
+- [Java 魔法类 Unsafe 详解](./docs/java/基础/unsafe.md)
+- [Java SPI 机制详解](./docs/java/基础/spi.md)
+- [Java 语法糖详解](./docs/java/基础/syntactic-sugar.md)
 
 ### 集合
 
 **知识点/面试题总结**：
 
-- [Java 集合常见知识点&面试题总结(上)](./docs/java/collection/java-collection-questions-01.md) （必看 :+1:）
-- [Java 集合常见知识点&面试题总结(下)](./docs/java/collection/java-collection-questions-02.md) （必看 :+1:）
-- [Java 容器使用注意事项总结](./docs/java/collection/java-collection-precautions-for-use.md)
+- [Java 集合常见知识点&面试题总结(上)](./docs/java/集合/java-collection-questions-01.md) （必看 :+1:）
+- [Java 集合常见知识点&面试题总结(下)](./docs/java/集合/java-collection-questions-02.md) （必看 :+1:）
+- [Java 容器使用注意事项总结](./docs/java/集合/java-collection-precautions-for-use.md)
 
 **源码分析**：
 
-- [ArrayList 核心源码+扩容机制分析](./docs/java/collection/arraylist-source-code.md)
-- [LinkedList 核心源码分析](./docs/java/collection/linkedlist-source-code.md)
-- [HashMap 核心源码+底层数据结构分析](./docs/java/collection/hashmap-source-code.md)
-- [ConcurrentHashMap 核心源码+底层数据结构分析](./docs/java/collection/concurrent-hash-map-source-code.md)
-- [LinkedHashMap 核心源码分析](./docs/java/collection/linkedhashmap-source-code.md)
-- [CopyOnWriteArrayList 核心源码分析](./docs/java/collection/copyonwritearraylist-source-code.md)
-- [ArrayBlockingQueue 核心源码分析](./docs/java/collection/arrayblockingqueue-source-code.md)
-- [PriorityQueue 核心源码分析](./docs/java/collection/priorityqueue-source-code.md)
-- [DelayQueue 核心源码分析](./docs/java/collection/delayqueue-source-code.md)
+- [ArrayList 核心源码+扩容机制分析](./docs/java/集合/arraylist-source-code.md)
+- [LinkedList 核心源码分析](./docs/java/集合/linkedlist-source-code.md)
+- [HashMap 核心源码+底层数据结构分析](./docs/java/集合/hashmap-source-code.md)
+- [ConcurrentHashMap 核心源码+底层数据结构分析](./docs/java/集合/concurrent-hash-map-source-code.md)
+- [LinkedHashMap 核心源码分析](./docs/java/集合/linkedhashmap-source-code.md)
+- [CopyOnWriteArrayList 核心源码分析](./docs/java/集合/copyonwritearraylist-source-code.md)
+- [ArrayBlockingQueue 核心源码分析](./docs/java/集合/arrayblockingqueue-source-code.md)
+- [PriorityQueue 核心源码分析](./docs/java/集合/priorityqueue-source-code.md)
+- [DelayQueue 核心源码分析](./docs/java/集合/delayqueue-source-code.md)
 
 ### IO
 
@@ -92,21 +92,21 @@
 
 **知识点/面试题总结**（必看 :+1:）
 
-- [Java 并发常见知识点&面试题总结（上）](./docs/java/concurrent/java-concurrent-questions-01.md)
-- [Java 并发常见知识点&面试题总结（中）](./docs/java/concurrent/java-concurrent-questions-02.md)
-- [Java 并发常见知识点&面试题总结（下）](./docs/java/concurrent/java-concurrent-questions-03.md)
+- [Java 并发常见知识点&面试题总结（上）](./docs/java/并发/java-concurrent-questions-01.md)
+- [Java 并发常见知识点&面试题总结（中）](./docs/java/并发/java-concurrent-questions-02.md)
+- [Java 并发常见知识点&面试题总结（下）](./docs/java/并发/java-concurrent-questions-03.md)
 
 **重要知识点详解**：
 
-- [乐观锁和悲观锁详解](./docs/java/concurrent/optimistic-lock-and-pessimistic-lock.md)
-- [CAS 详解](./docs/java/concurrent/cas.md)
-- [JMM（Java 内存模型）详解](./docs/java/concurrent/jmm.md)
-- **线程池**：[Java 线程池详解](./docs/java/concurrent/java-thread-pool-summary.md)、[Java 线程池最佳实践](./docs/java/concurrent/java-thread-pool-best-practices.md)
-- [ThreadLocal 详解](./docs/java/concurrent/threadlocal.md)
-- [Java 并发容器总结](./docs/java/concurrent/java-concurrent-collections.md)
-- [Atomic 原子类总结](./docs/java/concurrent/atomic-classes.md)
-- [AQS 详解](./docs/java/concurrent/aqs.md)
-- [CompletableFuture 详解](./docs/java/concurrent/completablefuture-intro.md)
+- [乐观锁和悲观锁详解](./docs/java/并发/optimistic-lock-and-pessimistic-lock.md)
+- [CAS 详解](./docs/java/并发/cas.md)
+- [JMM（Java 内存模型）详解](./docs/java/并发/jmm.md)
+- **线程池**：[Java 线程池详解](./docs/java/并发/java-thread-pool-summary.md)、[Java 线程池最佳实践](./docs/java/并发/java-thread-pool-best-practices.md)
+- [ThreadLocal 详解](./docs/java/并发/threadlocal.md)
+- [Java 并发容器总结](./docs/java/并发/java-concurrent-collections.md)
+- [Atomic 原子类总结](./docs/java/并发/atomic-classes.md)
+- [AQS 详解](./docs/java/并发/aqs.md)
+- [CompletableFuture 详解](./docs/java/并发/completablefuture-intro.md)
 
 ### JVM（必看 :+1:）
 
@@ -123,70 +123,70 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 新特性
 
-- **Java 8**：[Java 8 新特性总结（翻译）](./docs/java/new-features/java8-tutorial-translate.md)、[Java8 常用新特性总结](./docs/java/new-features/java8-common-new-features.md)
-- [Java 9 新特性概览](./docs/java/new-features/java9.md)
-- [Java 10 新特性概览](./docs/java/new-features/java10.md)
-- [Java 11 新特性概览](./docs/java/new-features/java11.md)
-- [Java 12 & 13 新特性概览](./docs/java/new-features/java12-13.md)
-- [Java 14 & 15 新特性概览](./docs/java/new-features/java14-15.md)
-- [Java 16 新特性概览](./docs/java/new-features/java16.md)
-- [Java 17 新特性概览](./docs/java/new-features/java17.md)
-- [Java 18 新特性概览](./docs/java/new-features/java18.md)
-- [Java 19 新特性概览](./docs/java/new-features/java19.md)
-- [Java 20 新特性概览](./docs/java/new-features/java20.md)
-- [Java 21 新特性概览](./docs/java/new-features/java21.md)
-- [Java 22 & 23 新特性概览](./docs/java/new-features/java22-23.md)
-- [Java 24 新特性概览](./docs/java/new-features/java24.md)
-- [Java 25 新特性概览](./docs/java/new-features/java25.md)
+- **Java 8**：[Java 8 新特性总结（翻译）](./docs/java/新特性/java8-tutorial-translate.md)、[Java8 常用新特性总结](./docs/java/新特性/java8-common-new-features.md)
+- [Java 9 新特性概览](./docs/java/新特性/java9.md)
+- [Java 10 新特性概览](./docs/java/新特性/java10.md)
+- [Java 11 新特性概览](./docs/java/新特性/java11.md)
+- [Java 12 & 13 新特性概览](./docs/java/新特性/java12-13.md)
+- [Java 14 & 15 新特性概览](./docs/java/新特性/java14-15.md)
+- [Java 16 新特性概览](./docs/java/新特性/java16.md)
+- [Java 17 新特性概览](./docs/java/新特性/java17.md)
+- [Java 18 新特性概览](./docs/java/新特性/java18.md)
+- [Java 19 新特性概览](./docs/java/新特性/java19.md)
+- [Java 20 新特性概览](./docs/java/新特性/java20.md)
+- [Java 21 新特性概览](./docs/java/新特性/java21.md)
+- [Java 22 & 23 新特性概览](./docs/java/新特性/java22-23.md)
+- [Java 24 新特性概览](./docs/java/新特性/java24.md)
+- [Java 25 新特性概览](./docs/java/新特性/java25.md)
 
 ## 计算机基础
 
 ### 操作系统
 
-- [操作系统常见知识点&面试题总结(上)](./docs/cs-basics/operating-system/operating-system-basic-questions-01.md)
-- [操作系统常见知识点&面试题总结(下)](./docs/cs-basics/operating-system/operating-system-basic-questions-02.md)
+- [操作系统常见知识点&面试题总结(上)](./docs/计算机基础/操作系统/operating-system-basic-questions-01.md)
+- [操作系统常见知识点&面试题总结(下)](./docs/计算机基础/操作系统/operating-system-basic-questions-02.md)
 - **Linux**：
-  - [后端程序员必备的 Linux 基础知识总结](./docs/cs-basics/operating-system/linux-intro.md)
-  - [Shell 编程基础知识总结](./docs/cs-basics/operating-system/shell-intro.md)
+  - [后端程序员必备的 Linux 基础知识总结](./docs/计算机基础/操作系统/linux-intro.md)
+  - [Shell 编程基础知识总结](./docs/计算机基础/操作系统/shell-intro.md)
 
 ### 网络
 
 **知识点/面试题总结**：
 
-- [计算机网络常见知识点&面试题总结(上)](./docs/cs-basics/network/other-network-questions.md)
-- [计算机网络常见知识点&面试题总结(下)](./docs/cs-basics/network/other-network-questions2.md)
-- [谢希仁老师的《计算机网络》内容总结（补充）](./docs/cs-basics/network/computer-network-xiexiren-summary.md)
+- [计算机网络常见知识点&面试题总结(上)](./docs/计算机基础/计算机网络/other-network-questions.md)
+- [计算机网络常见知识点&面试题总结(下)](./docs/计算机基础/计算机网络/other-network-questions2.md)
+- [谢希仁老师的《计算机网络》内容总结（补充）](./docs/计算机基础/计算机网络/computer-network-xiexiren-summary.md)
 
 **重要知识点详解**：
 
-- [OSI 和 TCP/IP 网络分层模型详解（基础）](./docs/cs-basics/network/osi-and-tcp-ip-model.md)
-- [应用层常见协议总结（应用层）](./docs/cs-basics/network/application-layer-protocol.md)
-- [HTTP vs HTTPS（应用层）](./docs/cs-basics/network/http-vs-https.md)
-- [HTTP 1.0 vs HTTP 1.1（应用层）](./docs/cs-basics/network/http1.0-vs-http1.1.md)
-- [HTTP 常见状态码（应用层）](./docs/cs-basics/network/http-status-codes.md)
-- [DNS 域名系统详解（应用层）](./docs/cs-basics/network/dns.md)
-- [TCP 三次握手和四次挥手（传输层）](./docs/cs-basics/network/tcp-connection-and-disconnection.md)
-- [TCP Keepalive 和 HTTP Keep-Alive 有什么区别？（传输层）](./docs/cs-basics/network/tcp-keepalive-vs-http-keepalive.md)
-- [TCP 传输可靠性保障（传输层）](./docs/cs-basics/network/tcp-reliability-guarantee.md)
-- [能 Ping 通，TCP 就一定能连通吗？（传输层）](./docs/cs-basics/network/can-ping-but-tcp-may-not-connect.md)
-- [TCP 和 UDP 可以使用同一个端口吗？（传输层）](./docs/cs-basics/network/can-tcp-and-udp-use-the-same-port.md)
-- [一台主机最多能保持多少个 TCP 连接？（传输层）](./docs/cs-basics/network/maximum-number-of-tcp-connections-per-host.md)
-- [ARP 协议详解(网络层)](./docs/cs-basics/network/arp.md)
-- [NAT 协议详解(网络层)](./docs/cs-basics/network/nat.md)
-- [网络攻击常见手段总结（安全）](./docs/cs-basics/network/network-attack-means.md)
+- [OSI 和 TCP/IP 网络分层模型详解（基础）](./docs/计算机基础/计算机网络/osi-and-tcp-ip-model.md)
+- [应用层常见协议总结（应用层）](./docs/计算机基础/计算机网络/application-layer-protocol.md)
+- [HTTP vs HTTPS（应用层）](./docs/计算机基础/计算机网络/http-vs-https.md)
+- [HTTP 1.0 vs HTTP 1.1（应用层）](./docs/计算机基础/计算机网络/http1.0-vs-http1.1.md)
+- [HTTP 常见状态码（应用层）](./docs/计算机基础/计算机网络/http-status-codes.md)
+- [DNS 域名系统详解（应用层）](./docs/计算机基础/计算机网络/dns.md)
+- [TCP 三次握手和四次挥手（传输层）](./docs/计算机基础/计算机网络/tcp-connection-and-disconnection.md)
+- [TCP Keepalive 和 HTTP Keep-Alive 有什么区别？（传输层）](./docs/计算机基础/计算机网络/tcp-keepalive-vs-http-keepalive.md)
+- [TCP 传输可靠性保障（传输层）](./docs/计算机基础/计算机网络/tcp-reliability-guarantee.md)
+- [能 Ping 通，TCP 就一定能连通吗？（传输层）](./docs/计算机基础/计算机网络/can-ping-but-tcp-may-not-connect.md)
+- [TCP 和 UDP 可以使用同一个端口吗？（传输层）](./docs/计算机基础/计算机网络/can-tcp-and-udp-use-the-same-port.md)
+- [一台主机最多能保持多少个 TCP 连接？（传输层）](./docs/计算机基础/计算机网络/maximum-number-of-tcp-connections-per-host.md)
+- [ARP 协议详解(网络层)](./docs/计算机基础/计算机网络/arp.md)
+- [NAT 协议详解(网络层)](./docs/计算机基础/计算机网络/nat.md)
+- [网络攻击常见手段总结（安全）](./docs/计算机基础/计算机网络/network-attack-means.md)
 
 ### 数据结构
 
 **图解数据结构：**
 
-- [线性数据结构 :数组、链表、栈、队列](./docs/cs-basics/data-structure/linear-data-structure.md)
-- [图](./docs/cs-basics/data-structure/graph.md)
-- [堆](./docs/cs-basics/data-structure/heap.md)
-- [树](./docs/cs-basics/data-structure/tree.md)：重点关注[红黑树](./docs/cs-basics/data-structure/red-black-tree.md)、B-，B+，B\*树、LSM 树
+- [线性数据结构 :数组、链表、栈、队列](./docs/计算机基础/数据结构/linear-data-structure.md)
+- [图](./docs/计算机基础/数据结构/graph.md)
+- [堆](./docs/计算机基础/数据结构/heap.md)
+- [树](./docs/计算机基础/数据结构/tree.md)：重点关注[红黑树](./docs/计算机基础/数据结构/red-black-tree.md)、B-，B+，B\*树、LSM 树
 
 其他常用数据结构：
 
-- [布隆过滤器](./docs/cs-basics/data-structure/bloom-filter.md)
+- [布隆过滤器](./docs/计算机基础/数据结构/bloom-filter.md)
 
 ### 算法
 
@@ -197,10 +197,10 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 **常见算法问题总结**：
 
-- [几道常见的字符串算法题总结](./docs/cs-basics/algorithms/string-algorithm-problems.md)
-- [几道常见的链表算法题总结](./docs/cs-basics/algorithms/linkedlist-algorithm-problems.md)
-- [剑指 offer 部分编程题](./docs/cs-basics/algorithms/the-sword-refers-to-offer.md)
-- [十大经典排序算法](./docs/cs-basics/algorithms/10-classical-sorting-algorithms.md)
+- [几道常见的字符串算法题总结](./docs/计算机基础/算法/string-algorithm-problems.md)
+- [几道常见的链表算法题总结](./docs/计算机基础/算法/linkedlist-algorithm-problems.md)
+- [剑指 offer 部分编程题](./docs/计算机基础/算法/the-sword-refers-to-offer.md)
+- [十大经典排序算法](./docs/计算机基础/算法/10-classical-sorting-algorithms.md)
 
 另外，[GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) 这个网站总结了常见的算法，比较全面系统。
 
@@ -208,60 +208,60 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 基础
 
-- [数据库基础知识总结](./docs/database/basis.md)
-- [NoSQL 基础知识总结](./docs/database/nosql.md)
-- [字符集详解](./docs/database/character-set.md)
+- [数据库基础知识总结](./docs/数据库/basis.md)
+- [NoSQL 基础知识总结](./docs/数据库/nosql.md)
+- [字符集详解](./docs/数据库/character-set.md)
 - SQL :
-  - [SQL 语法基础知识总结](./docs/database/sql/sql-syntax-summary.md)
-  - [SQL 常见面试题总结](./docs/database/sql/sql-questions-01.md)
+  - [SQL 语法基础知识总结](./docs/数据库/sql/sql-syntax-summary.md)
+  - [SQL 常见面试题总结](./docs/数据库/sql/sql-questions-01.md)
 
 ### MySQL
 
 **知识点/面试题总结：**
 
-- **[MySQL 常见知识点&面试题总结](./docs/database/mysql/mysql-questions-01.md)** （必看 :+1:）
-- [MySQL 高性能优化规范建议总结](./docs/database/mysql/mysql-high-performance-optimization-specification-recommendations.md)
+- **[MySQL 常见知识点&面试题总结](./docs/数据库/mysql/mysql-questions-01.md)** （必看 :+1:）
+- [MySQL 高性能优化规范建议总结](./docs/数据库/mysql/mysql-high-performance-optimization-specification-recommendations.md)
 
 **重要知识点：**
 
-- [MySQL 索引详解](./docs/database/mysql/mysql-index.md)
-- [MySQL 索引失效场景总结](./docs/database/mysql/mysql-index-invalidation.md)
-- [MySQL 事务隔离级别图文详解)](./docs/database/mysql/transaction-isolation-level.md)
-- [MySQL 三大日志(binlog、redo log 和 undo log)详解](./docs/database/mysql/mysql-logs.md)
-- [InnoDB 存储引擎对 MVCC 的实现](./docs/database/mysql/innodb-implementation-of-mvcc.md)
-- [SQL 语句在 MySQL 中的执行过程](./docs/database/mysql/how-sql-executed-in-mysql.md)
-- [MySQL 查询缓存详解](./docs/database/mysql/mysql-query-cache.md)
-- [MySQL 执行计划分析](./docs/database/mysql/mysql-query-execution-plan.md)
-- [MySQL 自增主键一定是连续的吗](./docs/database/mysql/mysql-auto-increment-primary-key-continuous.md)
-- [MySQL 时间类型数据存储建议](./docs/database/mysql/some-thoughts-on-database-storage-time.md)
-- [MySQL 隐式转换造成索引失效](./docs/database/mysql/index-invalidation-caused-by-implicit-conversion.md)
+- [MySQL 索引详解](./docs/数据库/mysql/mysql-index.md)
+- [MySQL 索引失效场景总结](./docs/数据库/mysql/mysql-index-invalidation.md)
+- [MySQL 事务隔离级别图文详解)](./docs/数据库/mysql/transaction-isolation-level.md)
+- [MySQL 三大日志(binlog、redo log 和 undo log)详解](./docs/数据库/mysql/mysql-logs.md)
+- [InnoDB 存储引擎对 MVCC 的实现](./docs/数据库/mysql/innodb-implementation-of-mvcc.md)
+- [SQL 语句在 MySQL 中的执行过程](./docs/数据库/mysql/how-sql-executed-in-mysql.md)
+- [MySQL 查询缓存详解](./docs/数据库/mysql/mysql-query-cache.md)
+- [MySQL 执行计划分析](./docs/数据库/mysql/mysql-query-execution-plan.md)
+- [MySQL 自增主键一定是连续的吗](./docs/数据库/mysql/mysql-auto-increment-primary-key-continuous.md)
+- [MySQL 时间类型数据存储建议](./docs/数据库/mysql/some-thoughts-on-database-storage-time.md)
+- [MySQL 隐式转换造成索引失效](./docs/数据库/mysql/index-invalidation-caused-by-implicit-conversion.md)
 
 ### Redis
 
 **知识点/面试题总结**（必看:+1:）：
 
-- [Redis 常见知识点&面试题总结(上)](./docs/database/redis/redis-questions-01.md)
-- [Redis 常见知识点&面试题总结(下)](./docs/database/redis/redis-questions-02.md)
+- [Redis 常见知识点&面试题总结(上)](./docs/数据库/redis/redis-questions-01.md)
+- [Redis 常见知识点&面试题总结(下)](./docs/数据库/redis/redis-questions-02.md)
 
 **重要知识点：**
 
-- [3 种常用的缓存读写策略详解](./docs/database/redis/3-commonly-used-cache-read-and-write-strategies.md)
-- [Redis 能做消息队列吗？怎么实现？](./docs/database/redis/redis-stream-mq.md)
-- [Redis 5 种基本数据结构详解](./docs/database/redis/redis-data-structures-01.md)
-- [Redis 3 种特殊数据结构详解](./docs/database/redis/redis-data-structures-02.md)
-- [Redis 持久化机制详解](./docs/database/redis/redis-persistence.md)
-- [Redis 内存碎片详解](./docs/database/redis/redis-memory-fragmentation.md)
-- [Redis 常见阻塞原因总结](./docs/database/redis/redis-common-blocking-problems-summary.md)
-- [Redis 集群详解](./docs/database/redis/redis-cluster.md)
+- [3 种常用的缓存读写策略详解](./docs/数据库/redis/3-commonly-used-cache-read-and-write-strategies.md)
+- [Redis 能做消息队列吗？怎么实现？](./docs/数据库/redis/redis-stream-mq.md)
+- [Redis 5 种基本数据结构详解](./docs/数据库/redis/redis-data-structures-01.md)
+- [Redis 3 种特殊数据结构详解](./docs/数据库/redis/redis-data-structures-02.md)
+- [Redis 持久化机制详解](./docs/数据库/redis/redis-persistence.md)
+- [Redis 内存碎片详解](./docs/数据库/redis/redis-memory-fragmentation.md)
+- [Redis 常见阻塞原因总结](./docs/数据库/redis/redis-common-blocking-problems-summary.md)
+- [Redis 集群详解](./docs/数据库/redis/redis-cluster.md)
 
 ### MongoDB
 
-- [MongoDB 常见知识点&面试题总结(上)](./docs/database/mongodb/mongodb-questions-01.md)
-- [MongoDB 常见知识点&面试题总结(下)](./docs/database/mongodb/mongodb-questions-02.md)
+- [MongoDB 常见知识点&面试题总结(上)](./docs/数据库/mongodb/mongodb-questions-01.md)
+- [MongoDB 常见知识点&面试题总结(下)](./docs/数据库/mongodb/mongodb-questions-02.md)
 
 ## 搜索引擎
 
-[Elasticsearch 常见面试题总结(付费)](./docs/database/elasticsearch/elasticsearch-questions-01.md)
+[Elasticsearch 常见面试题总结(付费)](./docs/数据库/elasticsearch/elasticsearch-questions-01.md)
 
 ![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
 
@@ -269,35 +269,35 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### Maven
 
-- [Maven 核心概念总结](./docs/tools/maven/maven-core-concepts.md)
-- [Maven 最佳实践](./docs/tools/maven/maven-best-practices.md)
+- [Maven 核心概念总结](./docs/开发工具/maven/maven-core-concepts.md)
+- [Maven 最佳实践](./docs/开发工具/maven/maven-best-practices.md)
 
 ### Gradle
 
-[Gradle 核心概念总结](./docs/tools/gradle/gradle-core-concepts.md)（可选，目前国内还是使用 Maven 普遍一些）
+[Gradle 核心概念总结](./docs/开发工具/gradle/gradle-core-concepts.md)（可选，目前国内还是使用 Maven 普遍一些）
 
 ### Docker
 
-- [Docker 核心概念总结](./docs/tools/docker/docker-intro.md)
-- [Docker 实战](./docs/tools/docker/docker-in-action.md)
+- [Docker 核心概念总结](./docs/开发工具/docker/docker-intro.md)
+- [Docker 实战](./docs/开发工具/docker/docker-in-action.md)
 
 ### Git
 
-- [Git 核心概念总结](./docs/tools/git/git-intro.md)
-- [GitHub 实用小技巧总结](./docs/tools/git/github-tips.md)
+- [Git 核心概念总结](./docs/开发工具/git/git-intro.md)
+- [GitHub 实用小技巧总结](./docs/开发工具/git/github-tips.md)
 
 ## 系统设计
 
-- [⭐系统设计常见面试题总结](./docs/system-design/system-design-questions.md)
+- [⭐系统设计常见面试题总结](./docs/系统设计/system-design-questions.md)
 - [⭐设计模式常见面试题总结](https://interview.javaguide.cn/system-design/design-pattern.html)
 
 ### 基础
 
-- [RestFul API 简明教程](./docs/system-design/basis/RESTfulAPI.md)
-- [软件工程简明教程](./docs/system-design/basis/software-engineering.md)
-- [代码命名指南](./docs/system-design/basis/naming.md)
-- [代码重构指南](./docs/system-design/basis/refactoring.md)
-- [单元测试指南](./docs/system-design/basis/unit-test.md)
+- [RestFul API 简明教程](./docs/系统设计/基础/RESTfulAPI.md)
+- [软件工程简明教程](./docs/系统设计/基础/software-engineering.md)
+- [代码命名指南](./docs/系统设计/基础/naming.md)
+- [代码重构指南](./docs/系统设计/基础/refactoring.md)
+- [单元测试指南](./docs/系统设计/基础/unit-test.md)
 
 ### 常用框架
 
@@ -305,47 +305,47 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 **知识点/面试题总结** :
 
-- [Spring 常见知识点&面试题总结](./docs/system-design/framework/spring/spring-knowledge-and-questions-summary.md)
-- [SpringBoot 常见知识点&面试题总结](./docs/system-design/framework/spring/springboot-knowledge-and-questions-summary.md)
-- [Spring/Spring Boot 常用注解总结](./docs/system-design/framework/spring/spring-common-annotations.md)
+- [Spring 常见知识点&面试题总结](./docs/系统设计/常用框架/spring/spring-knowledge-and-questions-summary.md)
+- [SpringBoot 常见知识点&面试题总结](./docs/系统设计/常用框架/spring/springboot-knowledge-and-questions-summary.md)
+- [Spring/Spring Boot 常用注解总结](./docs/系统设计/常用框架/spring/spring-common-annotations.md)
 - [SpringBoot 入门指南](https://github.com/Snailclimb/springboot-guide)
 
 **重要知识点详解**：
 
-- [IoC & AOP详解（快速搞懂）](./docs/system-design/framework/spring/ioc-and-aop.md)
-- [Spring 事务详解](./docs/system-design/framework/spring/spring-transaction.md)
-- [Spring 中的设计模式详解](./docs/system-design/framework/spring/spring-design-patterns-summary.md)
-- [SpringBoot 自动装配原理详解](./docs/system-design/framework/spring/spring-boot-auto-assembly-principles.md)
+- [IoC & AOP详解（快速搞懂）](./docs/系统设计/常用框架/spring/ioc-and-aop.md)
+- [Spring 事务详解](./docs/系统设计/常用框架/spring/spring-transaction.md)
+- [Spring 中的设计模式详解](./docs/系统设计/常用框架/spring/spring-design-patterns-summary.md)
+- [SpringBoot 自动装配原理详解](./docs/系统设计/常用框架/spring/spring-boot-auto-assembly-principles.md)
 
 #### MyBatis
 
-[MyBatis 常见面试题总结](./docs/system-design/framework/mybatis/mybatis-interview.md)
+[MyBatis 常见面试题总结](./docs/系统设计/常用框架/mybatis/mybatis-interview.md)
 
 ### 安全
 
 #### 认证授权
 
-- [认证授权基础概念详解](./docs/system-design/security/basis-of-authority-certification.md)
-- [JWT 基础概念详解](./docs/system-design/security/jwt-intro.md)
-- [JWT 优缺点分析以及常见问题解决方案](./docs/system-design/security/advantages-and-disadvantages-of-jwt.md)
-- [SSO 单点登录详解](./docs/system-design/security/sso-intro.md)
-- [权限系统设计详解](./docs/system-design/security/design-of-authority-system.md)
+- [认证授权基础概念详解](./docs/系统设计/安全/basis-of-authority-certification.md)
+- [JWT 基础概念详解](./docs/系统设计/安全/jwt-intro.md)
+- [JWT 优缺点分析以及常见问题解决方案](./docs/系统设计/安全/advantages-and-disadvantages-of-jwt.md)
+- [SSO 单点登录详解](./docs/系统设计/安全/sso-intro.md)
+- [权限系统设计详解](./docs/系统设计/安全/design-of-authority-system.md)
 
 #### 数据安全
 
-- [常见加密算法总结](./docs/system-design/security/encryption-algorithms.md)
-- [敏感词过滤方案总结](./docs/system-design/security/sentive-words-filter.md)
-- [数据脱敏方案总结](./docs/system-design/security/data-desensitization.md)
-- [为什么前后端都要做数据校验](./docs/system-design/security/data-validation.md)
-- [为什么忘记密码时只能重置，不能告诉你原密码？](./docs/system-design/security/why-password-reset-instead-of-retrieval.md)
+- [常见加密算法总结](./docs/系统设计/安全/encryption-algorithms.md)
+- [敏感词过滤方案总结](./docs/系统设计/安全/sentive-words-filter.md)
+- [数据脱敏方案总结](./docs/系统设计/安全/data-desensitization.md)
+- [为什么前后端都要做数据校验](./docs/系统设计/安全/data-validation.md)
+- [为什么忘记密码时只能重置，不能告诉你原密码？](./docs/系统设计/安全/why-password-reset-instead-of-retrieval.md)
 
 ### 定时任务
 
-[Java 定时任务详解](./docs/system-design/schedule-task.md)
+[Java 定时任务详解](./docs/系统设计/schedule-task.md)
 
 ### Web 实时消息推送
 
-[Web 实时消息推送详解](./docs/system-design/web-real-time-message-push.md)
+[Web 实时消息推送详解](./docs/系统设计/web-real-time-message-push.md)
 
 ## 分布式
 
@@ -353,12 +353,12 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 理论&算法&协议
 
-- [CAP 理论和 BASE 理论解读](https://javaguide.cn/distributed-system/protocol/cap-and-base-theorem.html)
-- [Paxos 算法解读](https://javaguide.cn/distributed-system/protocol/paxos-algorithm.html)
-- [Raft 算法解读](https://javaguide.cn/distributed-system/protocol/raft-algorithm.html)
-- [ZAB 协议解读](https://javaguide.cn/distributed-system/protocol/zab.html)
-- [Gossip 协议详解](https://javaguide.cn/distributed-system/protocol/gossip-protocol.html)
-- [一致性哈希算法详解](https://javaguide.cn/distributed-system/protocol/consistent-hashing.html)
+- [CAP 理论和 BASE 理论解读](https://javaguide.cn/distributed-system/理论与协议/cap-and-base-theorem.html)
+- [Paxos 算法解读](https://javaguide.cn/distributed-system/理论与协议/paxos-algorithm.html)
+- [Raft 算法解读](https://javaguide.cn/distributed-system/理论与协议/raft-algorithm.html)
+- [ZAB 协议解读](https://javaguide.cn/distributed-system/理论与协议/zab.html)
+- [Gossip 协议详解](https://javaguide.cn/distributed-system/理论与协议/gossip-protocol.html)
+- [一致性哈希算法详解](https://javaguide.cn/distributed-system/理论与协议/consistent-hashing.html)
 
 ### RPC
 
@@ -369,13 +369,13 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 > 这两篇文章可能有内容重合部分，推荐都看一遍。
 
-- [ZooKeeper 相关概念总结(入门)](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-intro.html)
-- [ZooKeeper 相关概念总结(进阶)](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-plus.html)
+- [ZooKeeper 相关概念总结(入门)](https://javaguide.cn/distributed-system/分布式协调/zookeeper/zookeeper-intro.html)
+- [ZooKeeper 相关概念总结(进阶)](https://javaguide.cn/distributed-system/分布式协调/zookeeper/zookeeper-plus.html)
 
 ### API 网关
 
 - [API 网关基础知识总结](https://javaguide.cn/distributed-system/api-gateway.html)
-- [Spring Cloud Gateway 常见知识点&面试题总结](./docs/distributed-system/spring-cloud-gateway-questions.md)
+- [Spring Cloud Gateway 常见知识点&面试题总结](./docs/分布式系统/spring-cloud-gateway-questions.md)
 
 ### 分布式 ID
 
@@ -393,52 +393,52 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 分布式配置中心
 
-[分布式配置中心常见知识点&面试题总结](./docs/distributed-system/distributed-configuration-center.md)
+[分布式配置中心常见知识点&面试题总结](./docs/分布式系统/distributed-configuration-center.md)
 
 ## 高性能
 
 ### 数据库优化
 
-- [数据库读写分离和分库分表](./docs/high-performance/read-and-write-separation-and-library-subtable.md)
-- [数据冷热分离](./docs/high-performance/data-cold-hot-separation.md)
-- [常见 SQL 优化手段总结](./docs/high-performance/sql-optimization.md)
-- [深度分页介绍及优化建议](./docs/high-performance/deep-pagination-optimization.md)
+- [数据库读写分离和分库分表](./docs/高性能/read-and-write-separation-and-library-subtable.md)
+- [数据冷热分离](./docs/高性能/data-cold-hot-separation.md)
+- [常见 SQL 优化手段总结](./docs/高性能/sql-optimization.md)
+- [深度分页介绍及优化建议](./docs/高性能/deep-pagination-optimization.md)
 
 ### 负载均衡
 
-[负载均衡常见知识点&面试题总结](./docs/high-performance/load-balancing.md)
+[负载均衡常见知识点&面试题总结](./docs/高性能/load-balancing.md)
 
 ### CDN
 
-[CDN（内容分发网络）常见知识点&面试题总结](./docs/high-performance/cdn.md)
+[CDN（内容分发网络）常见知识点&面试题总结](./docs/高性能/cdn.md)
 
 ### 消息队列
 
-- [消息队列基础知识总结](./docs/high-performance/message-queue/message-queue.md)
-- [Disruptor 常见知识点&面试题总结](./docs/high-performance/message-queue/disruptor-questions.md)
-- [RabbitMQ 常见知识点&面试题总结](./docs/high-performance/message-queue/rabbitmq-questions.md)
-- [RocketMQ 常见知识点&面试题总结](./docs/high-performance/message-queue/rocketmq-questions.md)
-- [Kafka 常见知识点&面试题总结](./docs/high-performance/message-queue/kafka-questions-01.md)
+- [消息队列基础知识总结](./docs/高性能/消息队列/message-queue.md)
+- [Disruptor 常见知识点&面试题总结](./docs/高性能/消息队列/disruptor-questions.md)
+- [RabbitMQ 常见知识点&面试题总结](./docs/高性能/消息队列/rabbitmq-questions.md)
+- [RocketMQ 常见知识点&面试题总结](./docs/高性能/消息队列/rocketmq-questions.md)
+- [Kafka 常见知识点&面试题总结](./docs/高性能/消息队列/kafka-questions-01.md)
 
 ## 高可用
 
-[高可用系统设计指南](./docs/high-availability/high-availability-system-design.md)
+[高可用系统设计指南](./docs/高可用/high-availability-system-design.md)
 
 ### 冗余设计
 
-[冗余设计详解](./docs/high-availability/redundancy.md)
+[冗余设计详解](./docs/高可用/redundancy.md)
 
 ### 限流
 
-[服务限流详解](./docs/high-availability/limit-request.md)
+[服务限流详解](./docs/高可用/limit-request.md)
 
 ### 降级&熔断
 
-[降级&熔断详解](./docs/high-availability/fallback-and-circuit-breaker.md)
+[降级&熔断详解](./docs/高可用/fallback-and-circuit-breaker.md)
 
 ### 超时&重试
 
-[超时&重试详解](./docs/high-availability/timeout-and-retry.md)
+[超时&重试详解](./docs/高可用/timeout-and-retry.md)
 
 ### 集群
 

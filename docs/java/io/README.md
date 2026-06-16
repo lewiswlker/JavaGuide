@@ -61,9 +61,9 @@ Java IO 是理解文件读写、网络编程、Netty、RPC 框架和高性能服
 ## 相关专题
 
 - [Java 知识体系](../)
-- [Java 并发编程专题](../concurrent/)
+- [Java 并发编程专题](../并发/)
 - [JVM 专题](../jvm/)
-- [计算机网络](../../cs-basics/network/)
-- [Netty](../../system-design/framework/netty.md)
+- [计算机网络](../../计算机基础/计算机网络/)
+- [Netty](../../系统设计/常用框架/netty.md)
 
 <!-- @include: @article-footer.snippet.md -->
