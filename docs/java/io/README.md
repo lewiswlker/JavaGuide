@@ -34,17 +34,17 @@ Java IO 是理解文件读写、网络编程、Netty、RPC 框架和高性能服
 
 ## 建议阅读顺序
 
-1. [Java IO 基础知识总结](./io-basis.md)：先掌握 IO 流体系、常用类和文件读写基础。
-2. [Java IO 设计模式总结](./io-design-patterns.md)：理解装饰器模式、适配器模式等设计模式如何落到 IO API 中。
-3. [Java IO 模型详解](./io-model.md)：厘清 BIO、NIO、AIO、同步/异步、阻塞/非阻塞和多路复用。
-4. [Java NIO 核心知识总结](./nio-basis.md)：深入学习 Buffer、Channel、Selector 和 NIO 编程模型。
+1. [Java IO 基础知识总结](./IO基础.md)：先掌握 IO 流体系、常用类和文件读写基础。
+2. [Java IO 设计模式总结](./IO设计模式.md)：理解装饰器模式、适配器模式等设计模式如何落到 IO API 中。
+3. [Java IO 模型详解](./IO模型.md)：厘清 BIO、NIO、AIO、同步/异步、阻塞/非阻塞和多路复用。
+4. [Java NIO 核心知识总结](./NIO基础.md)：深入学习 Buffer、Channel、Selector 和 NIO 编程模型。
 
 ## 核心文章
 
-- [Java IO 基础知识总结](./io-basis.md)：系统介绍字节流、字符流、缓冲流、随机访问文件和常见 IO 类。
-- [Java IO 设计模式总结](./io-design-patterns.md)：讲解装饰器模式、适配器模式等设计模式在 IO 中的应用。
-- [Java IO 模型详解](./io-model.md)：区分 BIO、NIO、AIO、同步/异步、阻塞/非阻塞和 I/O 多路复用。
-- [Java NIO 核心知识总结](./nio-basis.md)：理解 Buffer、Channel、Selector、SelectionKey 和 NIO 服务端编程。
+- [Java IO 基础知识总结](./IO基础.md)：系统介绍字节流、字符流、缓冲流、随机访问文件和常见 IO 类。
+- [Java IO 设计模式总结](./IO设计模式.md)：讲解装饰器模式、适配器模式等设计模式在 IO 中的应用。
+- [Java IO 模型详解](./IO模型.md)：区分 BIO、NIO、AIO、同步/异步、阻塞/非阻塞和 I/O 多路复用。
+- [Java NIO 核心知识总结](./NIO基础.md)：理解 Buffer、Channel、Selector、SelectionKey 和 NIO 服务端编程。
 
 ## 高频问题
 

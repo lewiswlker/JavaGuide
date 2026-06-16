@@ -35,20 +35,20 @@ head:
 
 ## 建议阅读顺序
 
-1. [经典算法思想总结](./classical-algorithm-problems-recommendations.md)：先按思想建立算法题分类框架。
-2. [常见数据结构经典 LeetCode 题目推荐](./common-data-structures-leetcode-recommendations.md)：结合数组、链表、栈、队列、树、图等结构刷题。
-3. [几道常见的字符串算法题](./string-algorithm-problems.md)：集中练习字符串匹配、回文、子串等高频题。
-4. [几道常见的链表算法题](./linkedlist-algorithm-problems.md)：掌握反转链表、快慢指针、环检测、合并链表等题型。
-5. [剑指 Offer 部分编程题](./the-sword-refers-to-offer.md) 和 [十大经典排序算法总结](./10-classical-sorting-algorithms.md)：用于面试前复盘。
+1. [经典算法思想总结](./经典算法题推荐.md)：先按思想建立算法题分类框架。
+2. [常见数据结构经典 LeetCode 题目推荐](./数据结构题推荐.md)：结合数组、链表、栈、队列、树、图等结构刷题。
+3. [几道常见的字符串算法题](./字符串算法题.md)：集中练习字符串匹配、回文、子串等高频题。
+4. [几道常见的链表算法题](./链表算法题.md)：掌握反转链表、快慢指针、环检测、合并链表等题型。
+5. [剑指 Offer 部分编程题](./剑指Offer.md) 和 [十大经典排序算法总结](./十大经典排序算法.md)：用于面试前复盘。
 
 ## 核心文章
 
-- [经典算法思想总结](./classical-algorithm-problems-recommendations.md)：整理常见算法思想和对应 LeetCode 题目。
-- [常见数据结构经典 LeetCode 题目推荐](./common-data-structures-leetcode-recommendations.md)：按数据结构类型推荐经典题目。
-- [几道常见的字符串算法题](./string-algorithm-problems.md)：覆盖字符串处理、匹配、回文和子串相关问题。
-- [几道常见的链表算法题](./linkedlist-algorithm-problems.md)：覆盖链表反转、合并、环检测、删除节点等高频题。
-- [剑指 Offer 部分编程题](./the-sword-refers-to-offer.md)：整理经典面试编程题。
-- [十大经典排序算法总结](./10-classical-sorting-algorithms.md)：讲解冒泡、选择、插入、归并、快速、堆排序等经典排序算法。
+- [经典算法思想总结](./经典算法题推荐.md)：整理常见算法思想和对应 LeetCode 题目。
+- [常见数据结构经典 LeetCode 题目推荐](./数据结构题推荐.md)：按数据结构类型推荐经典题目。
+- [几道常见的字符串算法题](./字符串算法题.md)：覆盖字符串处理、匹配、回文和子串相关问题。
+- [几道常见的链表算法题](./链表算法题.md)：覆盖链表反转、合并、环检测、删除节点等高频题。
+- [剑指 Offer 部分编程题](./剑指Offer.md)：整理经典面试编程题。
+- [十大经典排序算法总结](./十大经典排序算法.md)：讲解冒泡、选择、插入、归并、快速、堆排序等经典排序算法。
 
 ## 高频问题
 
@@ -65,7 +65,7 @@ head:
 
 - [计算机基础知识体系](../)
 - [数据结构专题](../数据结构/)
-- [Java 集合](../../java/集合/java-collection-questions-01.md)
+- [Java 集合](../../java/集合/Java集合常见面试题01.md)
 - [面试准备](../../面试准备/)
 - [计算机基础书籍推荐](../../技术书单/cs-basics.md)
 

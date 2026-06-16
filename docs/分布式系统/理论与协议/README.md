@@ -34,28 +34,28 @@ head:
 
 ## 建议阅读顺序
 
-1. [CAP 定理与 BASE 理论详解](./cap-and-base-theorem.md)：先建立一致性、可用性、分区容错的取舍视角。
-2. [Raft 算法详解](./raft-algorithm.md)：用相对易懂的 Leader 选举和日志复制入门共识算法。
-3. [Paxos 算法详解](./paxos-algorithm.md)：理解经典共识算法的角色、阶段和难点。
-4. [ZAB 协议详解](./zab.md)：把共识算法落到 ZooKeeper 的消息广播和崩溃恢复场景。
-5. [Gossip 协议详解](./gossip-protocol.md) 和 [一致性哈希算法详解](./consistent-hashing.md)：理解大规模系统里的状态传播和数据分布。
+1. [CAP 定理与 BASE 理论详解](./CAP与BASE理论.md)：先建立一致性、可用性、分区容错的取舍视角。
+2. [Raft 算法详解](./Raft算法.md)：用相对易懂的 Leader 选举和日志复制入门共识算法。
+3. [Paxos 算法详解](./Paxos算法.md)：理解经典共识算法的角色、阶段和难点。
+4. [ZAB 协议详解](./ZAB协议.md)：把共识算法落到 ZooKeeper 的消息广播和崩溃恢复场景。
+5. [Gossip 协议详解](./Gossip协议.md) 和 [一致性哈希算法详解](./一致性哈希.md)：理解大规模系统里的状态传播和数据分布。
 
 ## 核心文章
 
 ### 一致性与分布式理论
 
-- [CAP 定理与 BASE 理论详解](./cap-and-base-theorem.md)：理解一致性、可用性、分区容错的取舍，以及 BASE 理论和最终一致性的工程含义。
+- [CAP 定理与 BASE 理论详解](./CAP与BASE理论.md)：理解一致性、可用性、分区容错的取舍，以及 BASE 理论和最终一致性的工程含义。
 
 ### 共识算法
 
-- [Paxos 算法详解](./paxos-algorithm.md)：理解 Proposer、Acceptor、Learner 角色、两阶段流程和 Multi-Paxos 优化。
-- [Raft 算法详解](./raft-algorithm.md)：理解 Leader 选举、日志复制、安全性约束、成员变更和与 Paxos 的差异。
-- [ZAB 协议详解](./zab.md)：理解 ZooKeeper Atomic Broadcast、消息广播、崩溃恢复、ZXID 和事务日志。
+- [Paxos 算法详解](./Paxos算法.md)：理解 Proposer、Acceptor、Learner 角色、两阶段流程和 Multi-Paxos 优化。
+- [Raft 算法详解](./Raft算法.md)：理解 Leader 选举、日志复制、安全性约束、成员变更和与 Paxos 的差异。
+- [ZAB 协议详解](./ZAB协议.md)：理解 ZooKeeper Atomic Broadcast、消息广播、崩溃恢复、ZXID 和事务日志。
 
 ### 数据传播与数据分布
 
-- [Gossip 协议详解](./gossip-protocol.md)：理解反熵、谣言传播、Push/Pull 模式、SWIM 协议和最终一致性。
-- [一致性哈希算法详解](./consistent-hashing.md)：理解哈希环、虚拟节点、节点扩缩容、数据倾斜和分布式缓存应用。
+- [Gossip 协议详解](./Gossip协议.md)：理解反熵、谣言传播、Push/Pull 模式、SWIM 协议和最终一致性。
+- [一致性哈希算法详解](./一致性哈希.md)：理解哈希环、虚拟节点、节点扩缩容、数据倾斜和分布式缓存应用。
 
 ## 高频问题
 
@@ -71,7 +71,7 @@ head:
 
 - [分布式系统知识体系](../)
 - [ZooKeeper 专题](../分布式协调/zookeeper/)
-- [分布式配置中心详解](../distributed-configuration-center.md)
-- [分布式 ID 生成方案详解](../distributed-id.md)
+- [分布式配置中心详解](../分布式配置中心.md)
+- [分布式 ID 生成方案详解](../分布式ID生成.md)
 
 <!-- @include: @article-footer.snippet.md -->

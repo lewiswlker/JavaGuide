@@ -35,35 +35,35 @@ Java 新特性不适合按版本机械背诵，更适合抓住“语言表达能
 
 ## 建议阅读顺序
 
-1. [Java8 新特性实战](./java8-common-new-features.md)：先掌握 Lambda、Stream、Optional、接口默认方法和新日期 API。
-2. [Java 9 新特性概览](./java9.md)、[Java 10 新特性概览](./java10.md)：理解模块化和局部变量类型推断等基础变化。
-3. [Java 11 新特性概览（重要）](./java11.md)：重点关注第一个 8 之后被广泛采用的 LTS 版本。
-4. [Java 17 新特性概览（重要）](./java17.md)：掌握 Record、密封类、Switch、模式匹配等现代 Java 语法演进。
-5. [Java 21 新特性概览(重要)](./java21.md)：重点学习虚拟线程、分代 ZGC、模式匹配和字符串模板等变化。
-6. 再按需阅读 [Java 22 & 23 新特性概览](./java22-23.md)、[Java 24 新特性概览](./java24.md)、[Java 25 新特性概览](./java25.md)、[Java 26 新特性概览](./java26.md)。
+1. [Java8 新特性实战](./Java8常用新特性.md)：先掌握 Lambda、Stream、Optional、接口默认方法和新日期 API。
+2. [Java 9 新特性概览](./Java9新特性.md)、[Java 10 新特性概览](./Java10新特性.md)：理解模块化和局部变量类型推断等基础变化。
+3. [Java 11 新特性概览（重要）](./Java11新特性.md)：重点关注第一个 8 之后被广泛采用的 LTS 版本。
+4. [Java 17 新特性概览（重要）](./Java17新特性.md)：掌握 Record、密封类、Switch、模式匹配等现代 Java 语法演进。
+5. [Java 21 新特性概览(重要)](./Java21新特性.md)：重点学习虚拟线程、分代 ZGC、模式匹配和字符串模板等变化。
+6. 再按需阅读 [Java 22 & 23 新特性概览](./Java22-23新特性.md)、[Java 24 新特性概览](./Java24新特性.md)、[Java 25 新特性概览](./Java25新特性.md)、[Java 26 新特性概览](./Java26新特性.md)。
 
 ## 核心文章
 
 ### Java 8 基础能力
 
-- [Java8 新特性实战](./java8-common-new-features.md)：掌握 Lambda、函数式接口、Stream、Optional、接口默认方法和新日期 API。
-- [《Java8 指南》中文翻译](./java8-tutorial-translate.md)：通过更系统的教程理解 Java 8 常用特性。
+- [Java8 新特性实战](./Java8常用新特性.md)：掌握 Lambda、函数式接口、Stream、Optional、接口默认方法和新日期 API。
+- [《Java8 指南》中文翻译](./Java8教程.md)：通过更系统的教程理解 Java 8 常用特性。
 
 ### 重要 LTS 版本
 
-- [Java 11 新特性概览（重要）](./java11.md)：关注 HTTP Client、字符串 API、集合 API、ZGC 实验特性等变化。
-- [Java 17 新特性概览（重要）](./java17.md)：关注 Record、密封类、Switch 表达式、文本块和模式匹配相关能力。
-- [Java 21 新特性概览(重要)](./java21.md)：关注虚拟线程、分代 ZGC、Record Pattern、Pattern Matching for switch 等特性。
+- [Java 11 新特性概览（重要）](./Java11新特性.md)：关注 HTTP Client、字符串 API、集合 API、ZGC 实验特性等变化。
+- [Java 17 新特性概览（重要）](./Java17新特性.md)：关注 Record、密封类、Switch 表达式、文本块和模式匹配相关能力。
+- [Java 21 新特性概览(重要)](./Java21新特性.md)：关注虚拟线程、分代 ZGC、Record Pattern、Pattern Matching for switch 等特性。
 
 ### 按版本追踪
 
-- [Java 9 新特性概览](./java9.md)：理解模块化系统和 JShell。
-- [Java 10 新特性概览](./java10.md)：了解局部变量类型推断和运行时改进。
-- [Java 12 & 13 新特性概览](./java12-13.md)：了解 Switch 表达式、文本块等变化。
-- [Java 14 & 15 新特性概览](./java14-15.md)：了解 Record、文本块、隐藏类等特性。
-- [Java 16 新特性概览](./java16.md)：了解 Record 正式转正、Pattern Matching for instanceof 等变化。
-- [Java 18 新特性概览](./java18.md)、[Java 19 新特性概览](./java19.md)、[Java 20 新特性概览](./java20.md)：跟进 UTF-8 默认字符集、虚拟线程预览、结构化并发等演进。
-- [Java 22 & 23 新特性概览](./java22-23.md)、[Java 24 新特性概览](./java24.md)、[Java 25 新特性概览](./java25.md)、[Java 26 新特性概览](./java26.md)：了解较新版本中的预览、孵化和正式特性。
+- [Java 9 新特性概览](./Java9新特性.md)：理解模块化系统和 JShell。
+- [Java 10 新特性概览](./Java10新特性.md)：了解局部变量类型推断和运行时改进。
+- [Java 12 & 13 新特性概览](./Java12-13新特性.md)：了解 Switch 表达式、文本块等变化。
+- [Java 14 & 15 新特性概览](./Java14-15新特性.md)：了解 Record、文本块、隐藏类等特性。
+- [Java 16 新特性概览](./Java16新特性.md)：了解 Record 正式转正、Pattern Matching for instanceof 等变化。
+- [Java 18 新特性概览](./Java18新特性.md)、[Java 19 新特性概览](./Java19新特性.md)、[Java 20 新特性概览](./Java20新特性.md)：跟进 UTF-8 默认字符集、虚拟线程预览、结构化并发等演进。
+- [Java 22 & 23 新特性概览](./Java22-23新特性.md)、[Java 24 新特性概览](./Java24新特性.md)、[Java 25 新特性概览](./Java25新特性.md)、[Java 26 新特性概览](./Java26新特性.md)：了解较新版本中的预览、孵化和正式特性。
 
 ## 高频问题
 

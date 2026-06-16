@@ -35,100 +35,100 @@ Recommended to read through online reading platforms for better experience and f
 
 **Knowledge Points/Interview Questions Summary** : (Must-see:+1:):
 
-- [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 1)](./docs/java/基础/java-basic-questions-01.md)
-- [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 2)](./docs/java/基础/java-basic-questions-02.md)
-- [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 3)](./docs/java/基础/java-basic-questions-03.md)
+- [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 1)](./docs/java/基础/Java基础常见面试题01.md)
+- [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 2)](./docs/java/基础/Java基础常见面试题02.md)
+- [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 3)](./docs/java/基础/Java基础常见面试题03.md)
 
 **Important Knowledge Points Explanation**:
 
-- [Why is There Only Pass-by-Value in Java?](./docs/java/基础/why-there-only-value-passing-in-java.md)
-- [Serialization in Java Explained](./docs/java/基础/serialization.md)
-- [Generics & Wildcards Explained](./docs/java/基础/generics-and-wildcards.md)
-- [Java Reflection Mechanism Explained](./docs/java/基础/reflection.md)
-- [Java Proxy Pattern Explained](./docs/java/基础/proxy.md)
-- [BigDecimal Explained](./docs/java/基础/bigdecimal.md)
-- [Java Magic Class Unsafe Explained](./docs/java/基础/unsafe.md)
-- [Java SPI Mechanism Explained](./docs/java/基础/spi.md)
-- [Java Syntactic Sugar Explained](./docs/java/基础/syntactic-sugar.md)
+- [Why is There Only Pass-by-Value in Java?](./docs/java/基础/为什么Java只有值传递.md)
+- [Serialization in Java Explained](./docs/java/基础/序列化.md)
+- [Generics & Wildcards Explained](./docs/java/基础/泛型与通配符.md)
+- [Java Reflection Mechanism Explained](./docs/java/基础/反射.md)
+- [Java Proxy Pattern Explained](./docs/java/基础/代理模式.md)
+- [BigDecimal Explained](./docs/java/基础/BigDecimal详解.md)
+- [Java Magic Class Unsafe Explained](./docs/java/基础/Unsafe详解.md)
+- [Java SPI Mechanism Explained](./docs/java/基础/SPI机制.md)
+- [Java Syntactic Sugar Explained](./docs/java/基础/语法糖.md)
 
 ### Collections
 
 **Knowledge Points/Interview Questions Summary**:
 
-- [Summary of Common Java Collection Knowledge Points & Interview Questions (Part 1)](./docs/java/集合/java-collection-questions-01.md) (Must-see :+1:)
-- [Summary of Common Java Collection Knowledge Points & Interview Questions (Part 2)](./docs/java/集合/java-collection-questions-02.md) (Must-see :+1:)
-- [Summary of Java Container Usage Precautions](./docs/java/集合/java-collection-precautions-for-use.md)
+- [Summary of Common Java Collection Knowledge Points & Interview Questions (Part 1)](./docs/java/集合/Java集合常见面试题01.md) (Must-see :+1:)
+- [Summary of Common Java Collection Knowledge Points & Interview Questions (Part 2)](./docs/java/集合/Java集合常见面试题02.md) (Must-see :+1:)
+- [Summary of Java Container Usage Precautions](./docs/java/集合/Java集合使用注意事项.md)
 
 **Source Code Analysis**:
 
-- [ArrayList Core Source Code + Expansion Mechanism Analysis](./docs/java/集合/arraylist-source-code.md)
-- [LinkedList Core Source Code Analysis](./docs/java/集合/linkedlist-source-code.md)
-- [HashMap Core Source Code + Underlying Data Structure Analysis](./docs/java/集合/hashmap-source-code.md)
+- [ArrayList Core Source Code + Expansion Mechanism Analysis](./docs/java/集合/ArrayList源码.md)
+- [LinkedList Core Source Code Analysis](./docs/java/集合/LinkedList源码.md)
+- [HashMap Core Source Code + Underlying Data Structure Analysis](./docs/java/集合/HashMap源码.md)
 
 # Java Collection & Concurrency Series
 
 ## Collection
 
-- [ConcurrentHashMap Core Source Code + Underlying Data Structure Analysis](./docs/java/集合/concurrent-hash-map-source-code.md)
-- [LinkedHashMap Core Source Code Analysis](./docs/java/集合/linkedhashmap-source-code.md)
-- [CopyOnWriteArrayList Core Source Code Analysis](./docs/java/集合/copyonwritearraylist-source-code.md)
-- [ArrayBlockingQueue Core Source Code Analysis](./docs/java/集合/arrayblockingqueue-source-code.md)
-- [PriorityQueue Core Source Code Analysis](./docs/java/集合/priorityqueue-source-code.md)
-- [DelayQueue Core Source Code Analysis](./docs/java/集合/delayqueue-source-code.md)
+- [ConcurrentHashMap Core Source Code + Underlying Data Structure Analysis](./docs/java/集合/ConcurrentHashMap源码.md)
+- [LinkedHashMap Core Source Code Analysis](./docs/java/集合/LinkedHashMap源码.md)
+- [CopyOnWriteArrayList Core Source Code Analysis](./docs/java/集合/CopyOnWriteArrayList源码.md)
+- [ArrayBlockingQueue Core Source Code Analysis](./docs/java/集合/ArrayBlockingQueue源码.md)
+- [PriorityQueue Core Source Code Analysis](./docs/java/集合/PriorityQueue源码.md)
+- [DelayQueue Core Source Code Analysis](./docs/java/集合/DelayQueue源码.md)
 
 ### IO
 
-- [IO Basic Knowledge Summary](./docs/java/io/io-basis.md)
-- [IO Design Patterns Summary](./docs/java/io/io-design-patterns.md)
-- [IO Model Explanation](./docs/java/io/io-model.md)
-- [NIO Core Knowledge Summary](./docs/java/io/nio-basis.md)
+- [IO Basic Knowledge Summary](./docs/java/io/IO基础.md)
+- [IO Design Patterns Summary](./docs/java/io/IO设计模式.md)
+- [IO Model Explanation](./docs/java/io/IO模型.md)
+- [NIO Core Knowledge Summary](./docs/java/io/NIO基础.md)
 
 ### Concurrency
 
 **Knowledge Points/Interview Questions Summary** : (Must-read :+1:)
 
-- [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 1)](./docs/java/并发/java-concurrent-questions-01.md)
-- [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 2)](./docs/java/并发/java-concurrent-questions-02.md)
-- [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 3)](./docs/java/并发/java-concurrent-questions-03.md)
+- [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 1)](./docs/java/并发/Java并发常见面试题01.md)
+- [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 2)](./docs/java/并发/Java并发常见面试题02.md)
+- [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 3)](./docs/java/并发/Java并发常见面试题03.md)
 
 **Important Knowledge Points Explanation**:
 
-- [Optimistic Lock and Pessimistic Lock Explanation](./docs/java/并发/optimistic-lock-and-pessimistic-lock.md)
-- [CAS Explanation](./docs/java/并发/cas.md)
-- [JMM (Java Memory Model) Explanation](./docs/java/并发/jmm.md)
-- **Thread Pool**: [Java Thread Pool Explanation](./docs/java/并发/java-thread-pool-summary.md), [Java Thread Pool Best Practices](./docs/java/并发/java-thread-pool-best-practices.md)
-- [ThreadLocal Explanation](./docs/java/并发/threadlocal.md)
-- [Java Concurrent Collections Summary](./docs/java/并发/java-concurrent-collections.md)
-- [Atomic Classes Summary](./docs/java/并发/atomic-classes.md)
-- [AQS Explanation](./docs/java/并发/aqs.md)
-- [CompletableFuture Explanation](./docs/java/并发/completablefuture-intro.md)
+- [Optimistic Lock and Pessimistic Lock Explanation](./docs/java/并发/乐观锁与悲观锁.md)
+- [CAS Explanation](./docs/java/并发/CAS详解.md)
+- [JMM (Java Memory Model) Explanation](./docs/java/并发/JMM内存模型.md)
+- **Thread Pool**: [Java Thread Pool Explanation](./docs/java/并发/线程池详解.md), [Java Thread Pool Best Practices](./docs/java/并发/线程池最佳实践.md)
+- [ThreadLocal Explanation](./docs/java/并发/ThreadLocal详解.md)
+- [Java Concurrent Collections Summary](./docs/java/并发/Java并发集合.md)
+- [Atomic Classes Summary](./docs/java/并发/原子类.md)
+- [AQS Explanation](./docs/java/并发/AQS详解.md)
+- [CompletableFuture Explanation](./docs/java/并发/CompletableFuture详解.md)
 
 ### JVM (Must-read :+1:)
 
 The JVM part mainly refers to the [JVM Specification - Java 8](https://docs.oracle.com/javase/specs/jvms/se8/html/index.html) and Zhong Zhiming's book [《Deep Understanding of Java Virtual Machine (3rd Edition)》](https://book.douban.com/subject/34907497/) (strongly recommend to read it several times!).
 
-- **[Java Memory Area](./docs/java/jvm/memory-area.md)**
-- **[JVM Garbage Collection](./docs/java/jvm/jvm-garbage-collection.md)**
-- [Class File Structure](./docs/java/jvm/class-file-structure.md)
-- **[Class Loading Process](./docs/java/jvm/class-loading-process.md)**
-- [Class Loader](./docs/java/jvm/classloader.md)
-- [【To Be Completed】Most Important JVM Parameters Summary (Half Translated)](./docs/java/jvm/jvm-parameters-intro.md)
-- [【Bonus】Understand JVM in Plain Language](./docs/java/jvm/jvm-intro.md)
-- [JDK Monitoring and Troubleshooting Tools](./docs/java/jvm/jdk-monitoring-and-troubleshooting-tools.md)
+- **[Java Memory Area](./docs/java/jvm/运行时数据区.md)**
+- **[JVM Garbage Collection](./docs/java/jvm/JVM垃圾回收.md)**
+- [Class File Structure](./docs/java/jvm/类文件结构.md)
+- **[Class Loading Process](./docs/java/jvm/类加载过程.md)**
+- [Class Loader](./docs/java/jvm/类加载器.md)
+- [【To Be Completed】Most Important JVM Parameters Summary (Half Translated)](./docs/java/jvm/JVM参数详解.md)
+- [【Bonus】Understand JVM in Plain Language](./docs/java/jvm/JVM入门.md)
+- [JDK Monitoring and Troubleshooting Tools](./docs/java/jvm/JDK监控与排查工具.md)
 
 ### New Features
 
-- **Java 8**: [Java 8 New Features Summary (Translated)](./docs/java/新特性/java8-tutorial-translate.md), [Common Java 8 New Features Summary](./docs/java/新特性/java8-common-new-features.md)
-- [Java 9 New Features Overview](./docs/java/新特性/java9.md)
-- [Java 10 New Features Overview](./docs/java/新特性/java10.md)
-- [Java 11 New Features Overview](./docs/java/新特性/java11.md)
-- [Java 12 & 13 New Features Overview](./docs/java/新特性/java12-13.md)
-- [Java 14 & 15 New Features Overview](./docs/java/新特性/java14-15.md)
-- [Java 16 New Features Overview](./docs/java/新特性/java16.md)
-- [Java 17 New Features Overview](./docs/java/新特性/java17.md)
-- [Java 18 New Features Overview](./docs/java/新特性/java18.md)
-- [Java 19 New Features Overview](./docs/java/新特性/java19.md)
-- [Java 20 New Features Overview](./docs/java/新特性/java20.md)
+- **Java 8**: [Java 8 New Features Summary (Translated)](./docs/java/新特性/Java8教程.md), [Common Java 8 New Features Summary](./docs/java/新特性/Java8常用新特性.md)
+- [Java 9 New Features Overview](./docs/java/新特性/Java9新特性.md)
+- [Java 10 New Features Overview](./docs/java/新特性/Java10新特性.md)
+- [Java 11 New Features Overview](./docs/java/新特性/Java11新特性.md)
+- [Java 12 & 13 New Features Overview](./docs/java/新特性/Java12-13新特性.md)
+- [Java 14 & 15 New Features Overview](./docs/java/新特性/Java14-15新特性.md)
+- [Java 16 New Features Overview](./docs/java/新特性/Java16新特性.md)
+- [Java 17 New Features Overview](./docs/java/新特性/Java17新特性.md)
+- [Java 18 New Features Overview](./docs/java/新特性/Java18新特性.md)
+- [Java 19 New Features Overview](./docs/java/新特性/Java19新特性.md)
+- [Java 20 New Features Overview](./docs/java/新特性/Java20新特性.md)
 
 # Overview of Java 21, 22, 23, 24, and 25 New Features
 
@@ -136,46 +136,46 @@ The JVM part mainly refers to the [JVM Specification - Java 8](https://docs.orac
 
 ### Operating Systems
 
-- [Summary of Common Operating System Knowledge Points & Interview Questions (Part 1)](./docs/计算机基础/操作系统/operating-system-basic-questions-01.md)
-- [Summary of Common Operating System Knowledge Points & Interview Questions (Part 2)](./docs/计算机基础/操作系统/operating-system-basic-questions-02.md)
+- [Summary of Common Operating System Knowledge Points & Interview Questions (Part 1)](./docs/计算机基础/操作系统/操作系统常见面试题01.md)
+- [Summary of Common Operating System Knowledge Points & Interview Questions (Part 2)](./docs/计算机基础/操作系统/操作系统常见面试题02.md)
 - **Linux**:
-  - [Summary of Essential Linux Basics for Backend Developers](./docs/计算机基础/操作系统/linux-intro.md)
-  - [Summary of Shell Scripting Basics](./docs/计算机基础/操作系统/shell-intro.md)
+  - [Summary of Essential Linux Basics for Backend Developers](./docs/计算机基础/操作系统/Linux入门.md)
+  - [Summary of Shell Scripting Basics](./docs/计算机基础/操作系统/Shell入门.md)
 
 ### Networking
 
 **Knowledge Points/Interview Questions Summary**:
 
-- [Summary of Common Computer Network Knowledge Points & Interview Questions (Part 1)](./docs/计算机基础/计算机网络/other-network-questions.md)
-- [Summary of Common Computer Network Knowledge Points & Interview Questions (Part 2)](./docs/计算机基础/计算机网络/other-network-questions2.md)
-- [Summary of Professor Xie Xiren's "Computer Network" Content (Supplementary)](./docs/计算机基础/计算机网络/computer-network-xiexiren-summary.md)
+- [Summary of Common Computer Network Knowledge Points & Interview Questions (Part 1)](./docs/计算机基础/计算机网络/计算机网络常见面试题01.md)
+- [Summary of Common Computer Network Knowledge Points & Interview Questions (Part 2)](./docs/计算机基础/计算机网络/计算机网络常见面试题02.md)
+- [Summary of Professor Xie Xiren's "Computer Network" Content (Supplementary)](./docs/计算机基础/计算机网络/谢希仁计算机网络总结.md)
 
 **Important Concept Explanations**:
 
-- [Detailed Explanation of the OSI and TCP/IP Network Layer Models (Basics)](./docs/计算机基础/计算机网络/osi-and-tcp-ip-model.md)
-- [Summary of Common Application Layer Protocols (Application Layer)](./docs/计算机基础/计算机网络/application-layer-protocol.md)
-- [HTTP vs HTTPS (Application Layer)](./docs/计算机基础/计算机网络/http-vs-https.md)
-- [HTTP 1.0 vs HTTP 1.1 (Application Layer)](./docs/计算机基础/计算机网络/http1.0-vs-http1.1.md)
-- [Common HTTP Status Codes (Application Layer)](./docs/计算机基础/计算机网络/http-status-codes.md)
-- [Detailed Explanation of the DNS Domain Name System (Application Layer)](./docs/计算机基础/计算机网络/dns.md)
-- [TCP Three-Way Handshake and Four-Way Termination (Transport Layer)](./docs/计算机基础/计算机网络/tcp-connection-and-disconnection.md)
-- [TCP Transmission Reliability Guarantee (Transport Layer)](./docs/计算机基础/计算机网络/tcp-reliability-guarantee.md)
-- [Detailed Explanation of the ARP Protocol (Network Layer)](./docs/计算机基础/计算机网络/arp.md)
-- [Detailed Explanation of the NAT Protocol (Network Layer)](./docs/计算机基础/计算机网络/nat.md)
-- [Summary of Common Network Attack Means (Security)](./docs/计算机基础/计算机网络/network-attack-means.md)
+- [Detailed Explanation of the OSI and TCP/IP Network Layer Models (Basics)](./docs/计算机基础/计算机网络/OSI与TCPIP模型.md)
+- [Summary of Common Application Layer Protocols (Application Layer)](./docs/计算机基础/计算机网络/应用层协议.md)
+- [HTTP vs HTTPS (Application Layer)](./docs/计算机基础/计算机网络/HTTP与HTTPS对比.md)
+- [HTTP 1.0 vs HTTP 1.1 (Application Layer)](./docs/计算机基础/计算机网络/HTTP1.0与HTTP1.1对比.md)
+- [Common HTTP Status Codes (Application Layer)](./docs/计算机基础/计算机网络/HTTP状态码.md)
+- [Detailed Explanation of the DNS Domain Name System (Application Layer)](./docs/计算机基础/计算机网络/DNS详解.md)
+- [TCP Three-Way Handshake and Four-Way Termination (Transport Layer)](./docs/计算机基础/计算机网络/TCP三次握手四次挥手.md)
+- [TCP Transmission Reliability Guarantee (Transport Layer)](./docs/计算机基础/计算机网络/TCP可靠传输.md)
+- [Detailed Explanation of the ARP Protocol (Network Layer)](./docs/计算机基础/计算机网络/ARP协议.md)
+- [Detailed Explanation of the NAT Protocol (Network Layer)](./docs/计算机基础/计算机网络/NAT协议.md)
+- [Summary of Common Network Attack Means (Security)](./docs/计算机基础/计算机网络/网络攻击手段.md)
 
 ### Data Structures
 
 **Illustrated Data Structures:**
 
-- [Linear Data Structures: Arrays, Linked Lists, Stacks, Queues](./docs/计算机基础/数据结构/linear-data-structure.md)
-- [Graphs](./docs/计算机基础/数据结构/graph.md)
-- [Heaps](./docs/计算机基础/数据结构/heap.md)
-- [Trees](./docs/计算机基础/数据结构/tree.md): Focus on [Red-Black Trees](./docs/计算机基础/数据结构/red-black-tree.md), B-, B+, B\* Trees, and LSM Trees
+- [Linear Data Structures: Arrays, Linked Lists, Stacks, Queues](./docs/计算机基础/数据结构/线性数据结构.md)
+- [Graphs](./docs/计算机基础/数据结构/图.md)
+- [Heaps](./docs/计算机基础/数据结构/堆.md)
+- [Trees](./docs/计算机基础/数据结构/树.md): Focus on [Red-Black Trees](./docs/计算机基础/数据结构/红黑树.md), B-, B+, B\* Trees, and LSM Trees
 
 Other Commonly Used Data Structures:
 
-- [Bloom Filters](./docs/计算机基础/数据结构/bloom-filter.md)
+- [Bloom Filters](./docs/计算机基础/数据结构/布隆过滤器.md)
 
 ### Algorithms
 
@@ -186,10 +186,10 @@ The algorithm part is very important. If you don't know how to learn algorithms,
 
 **Summary of Common Algorithm Problems**:
 
-- [Summary of Several Common String Algorithm Problems](./docs/计算机基础/算法/string-algorithm-problems.md)
-- [Summary of Several Common Linked List Algorithm Problems](./docs/计算机基础/算法/linkedlist-algorithm-problems.md)
-- [Part of the Coding Questions from the "Sword Refers to Offer"](./docs/计算机基础/算法/the-sword-refers-to-offer.md)
-- [Ten Classic Sorting Algorithms](./docs/计算机基础/算法/10-classical-sorting-algorithms.md)
+- [Summary of Several Common String Algorithm Problems](./docs/计算机基础/算法/字符串算法题.md)
+- [Summary of Several Common Linked List Algorithm Problems](./docs/计算机基础/算法/链表算法题.md)
+- [Part of the Coding Questions from the "Sword Refers to Offer"](./docs/计算机基础/算法/剑指Offer.md)
+- [Ten Classic Sorting Algorithms](./docs/计算机基础/算法/十大经典排序算法.md)
 
 Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) has a comprehensive summary of common algorithms.
 
@@ -201,8 +201,8 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 - [Summary of NoSQL Basics](./docs/数据库/nosql.md)
 - [Explanation of Character Sets](./docs/数据库/character-set.md)
 - SQL:
-  - [Summary of SQL Syntax Basics](./docs/数据库/sql/sql-syntax-summary.md)
-  - [Summary of Common SQL Interview Questions](./docs/数据库/sql/sql-questions-01.md)
+  - [Summary of SQL Syntax Basics](./docs/数据库/sql/SQL语法总结.md)
+  - [Summary of Common SQL Interview Questions](./docs/数据库/sql/SQL面试题01.md)
 
 ### MySQL
 
@@ -210,48 +210,48 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 # MySQL Common Knowledge Points & Interview Questions Summary (Must-Read :+1:)
 
-- [MySQL Common Knowledge Points & Interview Questions Summary](./docs/数据库/mysql/mysql-questions-01.md)
-- [MySQL High-Performance Optimization Specification Recommendations](./docs/数据库/mysql/mysql-high-performance-optimization-specification-recommendations.md)
+- [MySQL Common Knowledge Points & Interview Questions Summary](./docs/数据库/mysql/MySQL常见面试题.md)
+- [MySQL High-Performance Optimization Specification Recommendations](./docs/数据库/mysql/MySQL高性能优化规范建议.md)
 
 **Important Knowledge Points:**
 
-- [MySQL Index Details](./docs/数据库/mysql/mysql-index.md)
-- [Detailed Explanation of MySQL Transaction Isolation Levels (with Pictures)](./docs/数据库/mysql/transaction-isolation-level.md)
-- [Detailed Explanation of MySQL's Three Logs (binlog, redo log, and undo log)](./docs/数据库/mysql/mysql-logs.md)
-- [InnoDB Storage Engine's Implementation of MVCC](./docs/数据库/mysql/innodb-implementation-of-mvcc.md)
-- [How SQL Statements are Executed in MySQL](./docs/数据库/mysql/how-sql-executed-in-mysql.md)
-- [Detailed Explanation of MySQL Query Cache](./docs/数据库/mysql/mysql-query-cache.md)
-- [MySQL Query Execution Plan Analysis](./docs/数据库/mysql/mysql-query-execution-plan.md)
-- [Are MySQL Auto-Increment Primary Keys Always Continuous?](./docs/数据库/mysql/mysql-auto-increment-primary-key-continuous.md)
-- [Suggestions on Storing Time-Related Data in Databases](./docs/数据库/mysql/some-thoughts-on-database-storage-time.md)
-- [Index Invalidation Caused by Implicit Conversion in MySQL](./docs/数据库/mysql/index-invalidation-caused-by-implicit-conversion.md)
+- [MySQL Index Details](./docs/数据库/mysql/MySQL索引.md)
+- [Detailed Explanation of MySQL Transaction Isolation Levels (with Pictures)](./docs/数据库/mysql/事务隔离级别.md)
+- [Detailed Explanation of MySQL's Three Logs (binlog, redo log, and undo log)](./docs/数据库/mysql/MySQL三大日志.md)
+- [InnoDB Storage Engine's Implementation of MVCC](./docs/数据库/mysql/InnoDB的MVCC实现.md)
+- [How SQL Statements are Executed in MySQL](./docs/数据库/mysql/SQL在MySQL中如何执行.md)
+- [Detailed Explanation of MySQL Query Cache](./docs/数据库/mysql/MySQL查询缓存.md)
+- [MySQL Query Execution Plan Analysis](./docs/数据库/mysql/MySQL执行计划.md)
+- [Are MySQL Auto-Increment Primary Keys Always Continuous?](./docs/数据库/mysql/MySQL自增主键连续性.md)
+- [Suggestions on Storing Time-Related Data in Databases](./docs/数据库/mysql/数据库时间存储思考.md)
+- [Index Invalidation Caused by Implicit Conversion in MySQL](./docs/数据库/mysql/隐式转换导致的索引失效.md)
 
 ### Redis
 
 **Knowledge Points/Interview Questions Summary** (Must-Read :+1:):
 
-- [Redis Common Knowledge Points & Interview Questions Summary (Part 1)](./docs/数据库/redis/redis-questions-01.md)
-- [Redis Common Knowledge Points & Interview Questions Summary (Part 2)](./docs/数据库/redis/redis-questions-02.md)
+- [Redis Common Knowledge Points & Interview Questions Summary (Part 1)](./docs/数据库/redis/Redis常见面试题01.md)
+- [Redis Common Knowledge Points & Interview Questions Summary (Part 2)](./docs/数据库/redis/Redis常见面试题02.md)
 
 **Important Knowledge Points:**
 
-- [Detailed Explanation of 3 Common Cache Read and Write Strategies](./docs/数据库/redis/3-commonly-used-cache-read-and-write-strategies.md)
-- [Can Redis Be Used as a Message Queue? How to Implement It?](./docs/数据库/redis/redis-stream-mq.md)
-- [Detailed Explanation of Redis' 5 Basic Data Structures](./docs/数据库/redis/redis-data-structures-01.md)
-- [Detailed Explanation of Redis' 3 Special Data Structures](./docs/数据库/redis/redis-data-structures-02.md)
-- [Detailed Explanation of Redis Persistence Mechanism](./docs/数据库/redis/redis-persistence.md)
-- [Detailed Explanation of Redis Memory Fragmentation](./docs/数据库/redis/redis-memory-fragmentation.md)
-- [Summary of Common Causes of Redis Blocking](./docs/数据库/redis/redis-common-blocking-problems-summary.md)
-- [Detailed Explanation of Redis Cluster](./docs/数据库/redis/redis-cluster.md)
+- [Detailed Explanation of 3 Common Cache Read and Write Strategies](./docs/数据库/redis/三种常用缓存读写策略.md)
+- [Can Redis Be Used as a Message Queue? How to Implement It?](./docs/数据库/redis/Redis-Stream消息队列.md)
+- [Detailed Explanation of Redis' 5 Basic Data Structures](./docs/数据库/redis/Redis数据结构01.md)
+- [Detailed Explanation of Redis' 3 Special Data Structures](./docs/数据库/redis/Redis数据结构02.md)
+- [Detailed Explanation of Redis Persistence Mechanism](./docs/数据库/redis/Redis持久化.md)
+- [Detailed Explanation of Redis Memory Fragmentation](./docs/数据库/redis/Redis内存碎片.md)
+- [Summary of Common Causes of Redis Blocking](./docs/数据库/redis/Redis常见阻塞问题.md)
+- [Detailed Explanation of Redis Cluster](./docs/数据库/redis/Redis集群.md)
 
 ### MongoDB
 
-- [MongoDB Common Knowledge Points & Interview Questions Summary (Part 1)](./docs/数据库/mongodb/mongodb-questions-01.md)
-- [MongoDB Common Knowledge Points & Interview Questions Summary (Part 2)](./docs/数据库/mongodb/mongodb-questions-02.md)
+- [MongoDB Common Knowledge Points & Interview Questions Summary (Part 1)](./docs/数据库/mongodb/MongoDB面试题01.md)
+- [MongoDB Common Knowledge Points & Interview Questions Summary (Part 2)](./docs/数据库/mongodb/MongoDB面试题02.md)
 
 ## Search Engines
 
-[Elasticsearch Common Interview Questions Summary (Paid)](./docs/数据库/elasticsearch/elasticsearch-questions-01.md)
+[Elasticsearch Common Interview Questions Summary (Paid)](./docs/数据库/elasticsearch/Elasticsearch面试题.md)
 
 ![JavaGuide Official Public Account](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
 
@@ -259,22 +259,22 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ### Maven
 
-- [Maven Core Concepts Summary](./docs/开发工具/maven/maven-core-concepts.md)
-- [Maven Best Practices](./docs/开发工具/maven/maven-best-practices.md)
+- [Maven Core Concepts Summary](./docs/开发工具/maven/Maven核心概念.md)
+- [Maven Best Practices](./docs/开发工具/maven/Maven最佳实践.md)
 
 ### Gradle
 
-[Gradle Core Concepts Summary](./docs/开发工具/gradle/gradle-core-concepts.md) (Optional, Maven is still more widely used in China)
+[Gradle Core Concepts Summary](./docs/开发工具/gradle/Gradle核心概念.md) (Optional, Maven is still more widely used in China)
 
 ### Docker
 
-- [Docker Core Concepts Summary](./docs/开发工具/docker/docker-intro.md)
-- [Docker in Action](./docs/开发工具/docker/docker-in-action.md)
+- [Docker Core Concepts Summary](./docs/开发工具/docker/Docker入门.md)
+- [Docker in Action](./docs/开发工具/docker/Docker实战.md)
 
 ### Git
 
-- [Git Core Concepts Summary](./docs/开发工具/git/git-intro.md)
-- [Useful GitHub Tips Summary](./docs/开发工具/git/github-tips.md)
+- [Git Core Concepts Summary](./docs/开发工具/git/Git入门.md)
+- [Useful GitHub Tips Summary](./docs/开发工具/git/GitHub技巧.md)
 
 ## System Design
 
@@ -283,11 +283,11 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ### Basics
 
-- [A Brief Tutorial on RESTful API](./docs/系统设计/基础/RESTfulAPI.md)
-- [A Brief Tutorial on Software Engineering](./docs/系统设计/基础/software-engineering.md)
-- [Code Naming Guide](./docs/系统设计/基础/naming.md)
-- [Code Refactoring Guide](./docs/系统设计/基础/refactoring.md)
-- [Unit Testing Guide](./docs/系统设计/基础/unit-test.md)
+- [A Brief Tutorial on RESTful API](./docs/系统设计/基础/RESTful-API.md)
+- [A Brief Tutorial on Software Engineering](./docs/系统设计/基础/软件工程.md)
+- [Code Naming Guide](./docs/系统设计/基础/命名规范.md)
+- [Code Refactoring Guide](./docs/系统设计/基础/重构.md)
+- [Unit Testing Guide](./docs/系统设计/基础/单元测试指南.md)
 
 ### Common Frameworks
 
@@ -295,38 +295,38 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 **Knowledge Points/Interview Questions Summary**:
 
-- [Summary of Common Spring Knowledge Points and Interview Questions](./docs/系统设计/常用框架/spring/spring-knowledge-and-questions-summary.md)
-- [Summary of Common SpringBoot Knowledge Points and Interview Questions](./docs/系统设计/常用框架/spring/springboot-knowledge-and-questions-summary.md)
-- [Summary of Common Spring/SpringBoot Annotations](./docs/系统设计/常用框架/spring/spring-common-annotations.md)
+- [Summary of Common Spring Knowledge Points and Interview Questions](./docs/系统设计/常用框架/spring/Spring面试题.md)
+- [Summary of Common SpringBoot Knowledge Points and Interview Questions](./docs/系统设计/常用框架/spring/SpringBoot面试题.md)
+- [Summary of Common Spring/SpringBoot Annotations](./docs/系统设计/常用框架/spring/Spring常用注解.md)
 - [SpringBoot Beginner's Guide](https://github.com/Snailclimb/springboot-guide)
 
 **Detailed Explanation of Important Knowledge Points**:
 
-- [Detailed Explanation of IoC & AOP (Quick Understanding)](./docs/系统设计/常用框架/spring/ioc-and-aop.md)
-- [Detailed Explanation of Spring Transactions](./docs/系统设计/常用框架/spring/spring-transaction.md)
-- [Detailed Explanation of Design Patterns in Spring](./docs/系统设计/常用框架/spring/spring-design-patterns-summary.md)
-- [Detailed Explanation of SpringBoot Auto-Configuration Principles](./docs/系统设计/常用框架/spring/spring-boot-auto-assembly-principles.md)
+- [Detailed Explanation of IoC & AOP (Quick Understanding)](./docs/系统设计/常用框架/spring/IoC与AOP.md)
+- [Detailed Explanation of Spring Transactions](./docs/系统设计/常用框架/spring/Spring事务.md)
+- [Detailed Explanation of Design Patterns in Spring](./docs/系统设计/常用框架/spring/Spring设计模式.md)
+- [Detailed Explanation of SpringBoot Auto-Configuration Principles](./docs/系统设计/常用框架/spring/SpringBoot自动装配原理.md)
 
 #### MyBatis
 
-[Summary of Common MyBatis Interview Questions](./docs/系统设计/常用框架/mybatis/mybatis-interview.md)
+[Summary of Common MyBatis Interview Questions](./docs/系统设计/常用框架/mybatis/MyBatis面试题.md)
 
 ### Security
 
 #### Authentication and Authorization
 
-- [Detailed Explanation of Authentication and Authorization Fundamentals](./docs/系统设计/安全/basis-of-authority-certification.md)
-- [Detailed Explanation of JWT Basics](./docs/系统设计/安全/jwt-intro.md)
-- [Analysis of Advantages and Disadvantages of JWT and Common Problem Solutions](./docs/系统设计/安全/advantages-and-disadvantages-of-jwt.md)
-- [Detailed Explanation of SSO (Single Sign-On)](./docs/系统设计/安全/sso-intro.md)
-- [Detailed Explanation of Permission System Design](./docs/系统设计/安全/design-of-authority-system.md)
+- [Detailed Explanation of Authentication and Authorization Fundamentals](./docs/系统设计/安全/认证授权基础.md)
+- [Detailed Explanation of JWT Basics](./docs/系统设计/安全/JWT入门.md)
+- [Analysis of Advantages and Disadvantages of JWT and Common Problem Solutions](./docs/系统设计/安全/JWT优缺点.md)
+- [Detailed Explanation of SSO (Single Sign-On)](./docs/系统设计/安全/SSO入门.md)
+- [Detailed Explanation of Permission System Design](./docs/系统设计/安全/权限系统设计.md)
 
 #### Data Security
 
-- [Summary of Common Encryption Algorithms](./docs/系统设计/安全/encryption-algorithms.md)
-- [Summary of Sensitive Word Filtering Solutions](./docs/系统设计/安全/sentive-words-filter.md)
-- [Summary of Data Desensitization Solutions](./docs/系统设计/安全/data-desensitization.md)
-- [Why Both Front-end and Back-end Need to Perform Data Validation](./docs/系统设计/安全/data-validation.md)
+- [Summary of Common Encryption Algorithms](./docs/系统设计/安全/加密算法.md)
+- [Summary of Sensitive Word Filtering Solutions](./docs/系统设计/安全/敏感词过滤.md)
+- [Summary of Data Desensitization Solutions](./docs/系统设计/安全/数据脱敏.md)
+- [Why Both Front-end and Back-end Need to Perform Data Validation](./docs/系统设计/安全/数据校验.md)
 
 ### Scheduled Tasks
 
@@ -361,7 +361,7 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 ### API Gateway
 
 - [Summary of API Gateway Basics](https://javaguide.cn/distributed-system/api-gateway.html)
-- [Summary of Common Spring Cloud Gateway Knowledge Points and Interview Questions](./docs/分布式系统/spring-cloud-gateway-questions.md)
+- [Summary of Common Spring Cloud Gateway Knowledge Points and Interview Questions](./docs/分布式系统/Spring-Cloud-Gateway面试题.md)
 
 ### Distributed ID
 
@@ -381,52 +381,52 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ### Distributed Configuration Center
 
-[Summary of Common Distributed Configuration Center Knowledge Points and Interview Questions](./docs/分布式系统/distributed-configuration-center.md)
+[Summary of Common Distributed Configuration Center Knowledge Points and Interview Questions](./docs/分布式系统/分布式配置中心.md)
 
 ## High Performance
 
 ### Database Optimization
 
-- [Database Read-Write Separation and Database Sharding](./docs/高性能/read-and-write-separation-and-library-subtable.md)
-- [Data Separation of Cold and Hot Data](./docs/高性能/data-cold-hot-separation.md)
-- [Summary of Common SQL Optimization Methods](./docs/高性能/sql-optimization.md)
-- [Introduction to Deep Pagination and Optimization Suggestions](./docs/高性能/deep-pagination-optimization.md)
+- [Database Read-Write Separation and Database Sharding](./docs/高性能/读写分离与分库分表.md)
+- [Data Separation of Cold and Hot Data](./docs/高性能/数据冷热分离.md)
+- [Summary of Common SQL Optimization Methods](./docs/高性能/SQL优化.md)
+- [Introduction to Deep Pagination and Optimization Suggestions](./docs/高性能/深分页优化.md)
 
 ### Load Balancing
 
-[Summary of Common Load Balancing Knowledge Points and Interview Questions](./docs/高性能/load-balancing.md)
+[Summary of Common Load Balancing Knowledge Points and Interview Questions](./docs/高性能/负载均衡.md)
 
 ### CDN
 
-[Summary of Common CDN (Content Delivery Network) Knowledge Points and Interview Questions](./docs/高性能/cdn.md)
+[Summary of Common CDN (Content Delivery Network) Knowledge Points and Interview Questions](./docs/高性能/CDN详解.md)
 
 ### Message Queue
 
-- [Summary of Message Queue Basic Knowledge](./docs/高性能/消息队列/message-queue.md)
-- [Summary of Common Disruptor Knowledge Points and Interview Questions](./docs/高性能/消息队列/disruptor-questions.md)
-- [Summary of Common RabbitMQ Knowledge Points and Interview Questions](./docs/高性能/消息队列/rabbitmq-questions.md)
-- [Summary of Common RocketMQ Knowledge Points and Interview Questions](./docs/高性能/消息队列/rocketmq-questions.md)
-- [Summary of Common Kafka Knowledge Points and Interview Questions](./docs/高性能/消息队列/kafka-questions-01.md)
+- [Summary of Message Queue Basic Knowledge](./docs/高性能/消息队列/消息队列基础.md)
+- [Summary of Common Disruptor Knowledge Points and Interview Questions](./docs/高性能/消息队列/Disruptor面试题.md)
+- [Summary of Common RabbitMQ Knowledge Points and Interview Questions](./docs/高性能/消息队列/RabbitMQ面试题.md)
+- [Summary of Common RocketMQ Knowledge Points and Interview Questions](./docs/高性能/消息队列/RocketMQ面试题.md)
+- [Summary of Common Kafka Knowledge Points and Interview Questions](./docs/高性能/消息队列/Kafka面试题.md)
 
 ## High Availability
 
-[Guide to High Availability System Design](./docs/高可用/high-availability-system-design.md)
+[Guide to High Availability System Design](./docs/高可用/高可用系统设计.md)
 
 ### Redundancy Design
 
-[Detailed Explanation of Redundancy Design](./docs/高可用/redundancy.md)
+[Detailed Explanation of Redundancy Design](./docs/高可用/冗余设计.md)
 
 ### Rate Limiting
 
-[Detailed Explanation of Service Rate Limiting](./docs/高可用/limit-request.md)
+[Detailed Explanation of Service Rate Limiting](./docs/高可用/服务限流.md)
 
 ### Fallback & Circuit Breaker
 
-[Detailed Explanation of Fallback & Circuit Breaker](./docs/高可用/fallback-and-circuit-breaker.md)
+[Detailed Explanation of Fallback & Circuit Breaker](./docs/高可用/降级与熔断.md)
 
 ### Timeout & Retry
 
-[Detailed Explanation of Timeout & Retry](./docs/高可用/timeout-and-retry.md)
+[Detailed Explanation of Timeout & Retry](./docs/高可用/超时与重试.md)
 
 ### Clustering
 

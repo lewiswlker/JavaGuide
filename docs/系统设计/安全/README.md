@@ -37,30 +37,30 @@ head:
 
 ## 建议阅读顺序
 
-1. [认证授权基础概念详解](./basis-of-authority-certification.md)：先区分认证、授权、Session、Token、OAuth2 等概念。
-2. [JWT 基础概念详解](./jwt-intro.md) 和 [JWT 身份认证优缺点分析](./advantages-and-disadvantages-of-jwt.md)：理解 JWT 的工作方式、优势和局限。
-3. [SSO 单点登录详解](./sso-intro.md)：理解统一认证中心、跨系统登录和登录态同步。
-4. [权限系统设计详解](./design-of-authority-system.md)：把认证授权落到 RBAC 权限系统设计。
-5. [常见加密算法总结](./encryption-algorithms.md)、[数据脱敏方案总结](./data-desensitization.md)、[为什么前后端都要做数据校验？](./data-validation.md)：补齐数据安全基础。
-6. 再根据业务场景阅读 [敏感词过滤方案总结](./sentive-words-filter.md) 和 [为什么忘记密码时只能重置，不能告诉你原密码？](./why-password-reset-instead-of-retrieval.md)。
+1. [认证授权基础概念详解](./认证授权基础.md)：先区分认证、授权、Session、Token、OAuth2 等概念。
+2. [JWT 基础概念详解](./JWT入门.md) 和 [JWT 身份认证优缺点分析](./JWT优缺点.md)：理解 JWT 的工作方式、优势和局限。
+3. [SSO 单点登录详解](./SSO入门.md)：理解统一认证中心、跨系统登录和登录态同步。
+4. [权限系统设计详解](./权限系统设计.md)：把认证授权落到 RBAC 权限系统设计。
+5. [常见加密算法总结](./加密算法.md)、[数据脱敏方案总结](./数据脱敏.md)、[为什么前后端都要做数据校验？](./数据校验.md)：补齐数据安全基础。
+6. 再根据业务场景阅读 [敏感词过滤方案总结](./敏感词过滤.md) 和 [为什么忘记密码时只能重置，不能告诉你原密码？](./为什么是密码重置而非找回.md)。
 
 ## 核心文章
 
 ### 认证授权
 
-- [认证授权基础概念详解](./basis-of-authority-certification.md)：讲解 Authentication、Authorization、Session、Token、OAuth2 等核心知识。
-- [JWT 基础概念详解](./jwt-intro.md)：讲解 JSON Web Token 的组成结构、签名算法、工作原理及登录鉴权应用。
-- [JWT 身份认证优缺点分析](./advantages-and-disadvantages-of-jwt.md)：分析 JWT 无法主动失效、Token 续期等问题及解决方案。
-- [SSO 单点登录详解](./sso-intro.md)：讲解统一认证中心、CAS 协议、跨域登录实现及登录态同步机制。
-- [权限系统设计详解](./design-of-authority-system.md)：基于 RBAC 讲解权限系统建模、访问控制和后台管理设计。
+- [认证授权基础概念详解](./认证授权基础.md)：讲解 Authentication、Authorization、Session、Token、OAuth2 等核心知识。
+- [JWT 基础概念详解](./JWT入门.md)：讲解 JSON Web Token 的组成结构、签名算法、工作原理及登录鉴权应用。
+- [JWT 身份认证优缺点分析](./JWT优缺点.md)：分析 JWT 无法主动失效、Token 续期等问题及解决方案。
+- [SSO 单点登录详解](./SSO入门.md)：讲解统一认证中心、CAS 协议、跨域登录实现及登录态同步机制。
+- [权限系统设计详解](./权限系统设计.md)：基于 RBAC 讲解权限系统建模、访问控制和后台管理设计。
 
 ### 数据安全
 
-- [常见加密算法总结](./encryption-algorithms.md)：梳理 AES、RSA、MD5、SHA 等算法的原理与应用场景。
-- [敏感词过滤方案总结](./sentive-words-filter.md)：从暴力匹配到 Trie 树、AC 自动机，讲解敏感词过滤算法演进和工程实践。
-- [数据脱敏方案总结](./data-desensitization.md)：讲解手机号、身份证、银行卡等敏感数据脱敏规则和实现方法。
-- [为什么前后端都要做数据校验？](./data-validation.md)：解释参数校验、权限校验的重要性，以及如何防止绕过前端校验。
-- [为什么忘记密码时只能重置，不能告诉你原密码？](./why-password-reset-instead-of-retrieval.md)：解释密码哈希、加盐、Bcrypt 和密码传输安全。
+- [常见加密算法总结](./加密算法.md)：梳理 AES、RSA、MD5、SHA 等算法的原理与应用场景。
+- [敏感词过滤方案总结](./敏感词过滤.md)：从暴力匹配到 Trie 树、AC 自动机，讲解敏感词过滤算法演进和工程实践。
+- [数据脱敏方案总结](./数据脱敏.md)：讲解手机号、身份证、银行卡等敏感数据脱敏规则和实现方法。
+- [为什么前后端都要做数据校验？](./数据校验.md)：解释参数校验、权限校验的重要性，以及如何防止绕过前端校验。
+- [为什么忘记密码时只能重置，不能告诉你原密码？](./为什么是密码重置而非找回.md)：解释密码哈希、加盐、Bcrypt 和密码传输安全。
 
 ## 高频问题
 
@@ -83,6 +83,6 @@ head:
 - [系统设计基础专题](../基础/)
 - [Spring & Spring Boot 专题](../常用框架/spring/)
 - [高可用系统知识体系](../../高可用/)
-- [计算机网络安全](../../计算机基础/计算机网络/network-attack-means.md)
+- [计算机网络安全](../../计算机基础/计算机网络/网络攻击手段.md)
 
 <!-- @include: @article-footer.snippet.md -->

@@ -12,13 +12,13 @@ export const csBasics = [
         children: [
           {
             text: "⭐️计算机网络常见面试题总结（上）",
-            link: "other-network-questions",
+            link: "计算机网络常见面试题01",
           },
           {
             text: "⭐️计算机网络常见面试题总结（下）",
-            link: "other-network-questions2",
+            link: "计算机网络常见面试题02",
           },
-          // { text: "计算机网络知识总结", link: "computer-network-xiexiren-summary" },
+          // { text: "计算机网络知识总结", link: "谢希仁计算机网络总结" },
         ],
       },
       {
@@ -27,11 +27,11 @@ export const csBasics = [
         children: [
           {
             text: "OSI 七层模型与 TCP/IP 四层模型详解",
-            link: "osi-and-tcp-ip-model",
+            link: "OSI与TCPIP模型",
           },
           {
             text: "从输入 URL 到页面展示到底发生了什么？",
-            link: "the-whole-process-of-accessing-web-pages",
+            link: "从输入URL到页面展示",
           },
         ],
       },
@@ -39,16 +39,16 @@ export const csBasics = [
         text: "应用层",
         icon: ICONS.CODE,
         children: [
-          { text: "⭐️应用层常见协议总结", link: "application-layer-protocol" },
-          { text: "⭐️HTTP vs HTTPS", link: "http-vs-https" },
-          { text: "⭐️有了HTTP，为什么还要RPC？", link: "http-vs-rpc" },
+          { text: "⭐️应用层常见协议总结", link: "应用层协议" },
+          { text: "⭐️HTTP vs HTTPS", link: "HTTP与HTTPS对比" },
+          { text: "⭐️有了HTTP，为什么还要RPC？", link: "HTTP与RPC对比" },
           {
             text: "HTTPS 握手里的 RSA 和 ECDHE",
-            link: "https-rsa-vs-ecdhe",
+            link: "HTTPS握手RSA与ECDHE",
           },
-          { text: "HTTP 1.0 vs HTTP 1.1", link: "http1.0-vs-http1.1" },
-          { text: "HTTP 常见状态码总结", link: "http-status-codes" },
-          { text: "DNS 域名系统详解", link: "dns" },
+          { text: "HTTP 1.0 vs HTTP 1.1", link: "HTTP1.0与HTTP1.1对比" },
+          { text: "HTTP 常见状态码总结", link: "HTTP状态码" },
+          { text: "DNS 域名系统详解", link: "DNS详解" },
         ],
       },
       {
@@ -57,32 +57,32 @@ export const csBasics = [
         children: [
           {
             text: "⭐️TCP 三次握手和四次挥手",
-            link: "tcp-connection-and-disconnection",
+            link: "TCP三次握手四次挥手",
           },
-          { text: "TCP TIME_WAIT 详解", link: "tcp-time-wait" },
+          { text: "TCP TIME_WAIT 详解", link: "TCP-TIME-WAIT详解" },
           {
             text: "TCP Keepalive和HTTP Keep-Alive有什么区别？",
-            link: "tcp-keepalive-vs-http-keepalive",
+            link: "TCP与HTTP-Keepalive对比",
           },
           {
             text: "TCP 字节流 vs UDP 报文",
-            link: "tcp-byte-stream-udp-datagram",
+            link: "TCP字节流与UDP报文",
           },
           {
             text: "⭐️TCP 如何保证可靠传输？",
-            link: "tcp-reliability-guarantee",
+            link: "TCP可靠传输",
           },
           {
             text: "能 Ping 通，TCP 就一定能连通吗？",
-            link: "can-ping-but-tcp-may-not-connect",
+            link: "Ping通TCP不一定能连",
           },
           {
             text: "TCP 和 UDP 可以使用同一个端口吗？",
-            link: "can-tcp-and-udp-use-the-same-port",
+            link: "TCP与UDP能否用同一端口",
           },
           {
             text: "一台主机最多能保持多少个 TCP 连接？",
-            link: "maximum-number-of-tcp-connections-per-host",
+            link: "单机TCP连接上限",
           },
         ],
       },
@@ -90,16 +90,14 @@ export const csBasics = [
         text: "网络层",
         icon: ICONS.NETWORK,
         children: [
-          { text: "ARP 协议详解", link: "arp" },
-          { text: "NAT 协议详解", link: "nat" },
+          { text: "ARP 协议详解", link: "ARP协议" },
+          { text: "NAT 协议详解", link: "NAT协议" },
         ],
       },
       {
         text: "安全",
         icon: ICONS.SECURITY,
-        children: [
-          { text: "网络攻击常见手段总结", link: "network-attack-means" },
-        ],
+        children: [{ text: "网络攻击常见手段总结", link: "网络攻击手段" }],
       },
     ],
   },
@@ -108,12 +106,12 @@ export const csBasics = [
     prefix: "操作系统/",
     icon: ICONS.OS,
     children: [
-      "operating-system-basic-questions-01",
-      "operating-system-basic-questions-02",
+      "操作系统常见面试题01",
+      "操作系统常见面试题02",
       {
         text: "Linux",
         icon: ICONS.LINUX,
-        children: ["linux-intro", "shell-intro"],
+        children: ["Linux入门", "Shell入门"],
       },
     ],
   },
@@ -123,12 +121,12 @@ export const csBasics = [
     icon: ICONS.DATA_STRUCTURE,
     collapsible: true,
     children: [
-      { text: "线性数据结构", link: "linear-data-structure" },
-      { text: "树结构", link: "tree" },
-      { text: "图", link: "graph" },
-      { text: "堆", link: "heap" },
-      { text: "红黑树", link: "red-black-tree" },
-      { text: "布隆过滤器", link: "bloom-filter" },
+      { text: "线性数据结构", link: "线性数据结构" },
+      { text: "树结构", link: "树" },
+      { text: "图", link: "图" },
+      { text: "堆", link: "堆" },
+      { text: "红黑树", link: "红黑树" },
+      { text: "布隆过滤器", link: "布隆过滤器" },
     ],
   },
   {
@@ -137,12 +135,12 @@ export const csBasics = [
     icon: ICONS.ALGORITHM,
     collapsible: true,
     children: [
-      "classical-algorithm-problems-recommendations",
-      "common-data-structures-leetcode-recommendations",
-      "string-algorithm-problems",
-      "linkedlist-algorithm-problems",
-      "the-sword-refers-to-offer",
-      "10-classical-sorting-algorithms",
+      "经典算法题推荐",
+      "数据结构题推荐",
+      "字符串算法题",
+      "链表算法题",
+      "剑指Offer",
+      "十大经典排序算法",
     ],
   },
 ];

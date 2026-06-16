@@ -19,7 +19,7 @@ head:
 
 这份 **分布式系统知识体系** 面向后端学习、系统设计和面试复习，按“理论基础 -> 通信调用 -> 服务治理 -> 一致性与协调 -> 工程实践”的顺序整理本站分布式相关文章。
 
-如果你时间有限，建议先看 [分布式系统面试题总结](./distributed-system-interview-questions.md)，快速建立高频问题清单；如果你想系统补基础，可以按下面的专题顺序阅读。
+如果你时间有限，建议先看 [分布式系统面试题总结](./分布式高频面试题.md)，快速建立高频问题清单；如果你想系统补基础，可以按下面的专题顺序阅读。
 
 ## 适合谁看
 
@@ -38,11 +38,11 @@ head:
 
 ## 建议阅读顺序
 
-1. [分布式系统面试题总结](./distributed-system-interview-questions.md)：先建立高频问题清单，知道面试最常考哪些点。
-2. [CAP 定理与 BASE 理论详解](./理论与协议/cap-and-base-theorem.md)：理解分布式系统最核心的取舍逻辑。
-3. [RPC 远程过程调用详解](./rpc/rpc-intro.md)：掌握服务之间如何通信，以及 RPC 框架解决了哪些工程问题。
-4. [分布式 ID 生成方案详解](./distributed-id.md)、[分布式锁入门](./distributed-lock.md)、[分布式事务解决方案详解](./distributed-transaction.md)：补齐高频工程实践。
-5. [ZooKeeper 入门指南](./分布式协调/zookeeper/zookeeper-intro.md) 和 [分布式配置中心详解](./distributed-configuration-center.md)：理解分布式协调和配置治理。
+1. [分布式系统面试题总结](./分布式高频面试题.md)：先建立高频问题清单，知道面试最常考哪些点。
+2. [CAP 定理与 BASE 理论详解](./理论与协议/CAP与BASE理论.md)：理解分布式系统最核心的取舍逻辑。
+3. [RPC 远程过程调用详解](./rpc/RPC基础.md)：掌握服务之间如何通信，以及 RPC 框架解决了哪些工程问题。
+4. [分布式 ID 生成方案详解](./分布式ID生成.md)、[分布式锁入门](./分布式锁入门.md)、[分布式事务解决方案详解](./分布式事务.md)：补齐高频工程实践。
+5. [ZooKeeper 入门指南](./分布式协调/zookeeper/ZooKeeper入门.md) 和 [分布式配置中心详解](./分布式配置中心.md)：理解分布式协调和配置治理。
 
 ## 核心文章
 
@@ -51,48 +51,48 @@ head:
 这部分适合先建立分布式系统的底层认知，重点理解一致性、可用性、分区容错、共识算法和数据分布。
 
 - [分布式理论、算法与协议专题](./理论与协议/)：把 CAP、BASE、Paxos、Raft、ZAB、Gossip 和一致性哈希放在同一条学习线上。
-- [CAP 定理与 BASE 理论详解](./理论与协议/cap-and-base-theorem.md)：理解一致性、可用性、分区容错和最终一致性。
-- [Raft 算法详解](./理论与协议/raft-algorithm.md)：用更易理解的共识算法入门 Leader 选举和日志复制。
-- [Paxos 算法详解](./理论与协议/paxos-algorithm.md)：补齐经典共识算法的角色、流程和难点。
-- [ZAB 协议详解](./理论与协议/zab.md)：理解 ZooKeeper 的原子广播、崩溃恢复和事务日志机制。
-- [Gossip 协议详解](./理论与协议/gossip-protocol.md)：理解大规模节点之间的信息传播和最终一致性。
-- [一致性哈希算法详解](./理论与协议/consistent-hashing.md)：理解分布式缓存、负载均衡和分库分表中的数据分布问题。
+- [CAP 定理与 BASE 理论详解](./理论与协议/CAP与BASE理论.md)：理解一致性、可用性、分区容错和最终一致性。
+- [Raft 算法详解](./理论与协议/Raft算法.md)：用更易理解的共识算法入门 Leader 选举和日志复制。
+- [Paxos 算法详解](./理论与协议/Paxos算法.md)：补齐经典共识算法的角色、流程和难点。
+- [ZAB 协议详解](./理论与协议/ZAB协议.md)：理解 ZooKeeper 的原子广播、崩溃恢复和事务日志机制。
+- [Gossip 协议详解](./理论与协议/Gossip协议.md)：理解大规模节点之间的信息传播和最终一致性。
+- [一致性哈希算法详解](./理论与协议/一致性哈希.md)：理解分布式缓存、负载均衡和分库分表中的数据分布问题。
 
 ### RPC 与服务调用
 
 RPC 解决的是远程服务调用的工程复杂度，包括序列化、网络传输、服务发现、负载均衡、超时重试和服务治理。
 
 - [RPC 专题](./rpc/)：从 RPC 基础、Dubbo 到 HTTP 与 RPC 的关系，建立服务调用完整认知。
-- [RPC 远程过程调用详解](./rpc/rpc-intro.md)：理解 RPC 调用流程、动态代理、序列化、网络传输和框架选型。
-- [Dubbo 面试题总结](./rpc/dubbo.md)：串联 Dubbo 架构、服务暴露与引用、SPI、负载均衡和集群容错。
-- [有了 HTTP 协议，为什么还要 RPC？](../计算机基础/计算机网络/http-vs-rpc.md)：厘清 HTTP 和 RPC 的层次关系与选型边界。
+- [RPC 远程过程调用详解](./rpc/RPC基础.md)：理解 RPC 调用流程、动态代理、序列化、网络传输和框架选型。
+- [Dubbo 面试题总结](./rpc/Dubbo面试题.md)：串联 Dubbo 架构、服务暴露与引用、SPI、负载均衡和集群容错。
+- [有了 HTTP 协议，为什么还要 RPC？](../计算机基础/计算机网络/HTTP与RPC对比.md)：厘清 HTTP 和 RPC 的层次关系与选型边界。
 
 ### API 网关与流量入口
 
 API 网关负责统一接入、路由转发、认证鉴权、限流熔断、灰度发布和跨域处理，是微服务体系里的重要入口层。
 
-- [API 网关详解](./api-gateway.md)：理解请求路由、认证鉴权、限流熔断、负载均衡和双层网关架构。
-- [Spring Cloud Gateway 面试题总结](./spring-cloud-gateway-questions.md)：掌握 Predicate、GatewayFilter、GlobalFilter、限流熔断和常见生产问题。
+- [API 网关详解](./API网关基础.md)：理解请求路由、认证鉴权、限流熔断、负载均衡和双层网关架构。
+- [Spring Cloud Gateway 面试题总结](./Spring-Cloud-Gateway面试题.md)：掌握 Predicate、GatewayFilter、GlobalFilter、限流熔断和常见生产问题。
 
 ### 分布式 ID、锁与事务
 
 这部分偏工程落地，常见于订单、支付、秒杀、库存扣减、数据一致性和跨服务协作场景。
 
-- [分布式 ID 生成方案详解](./distributed-id.md)：对比 UUID、数据库自增、号段模式、Redis、Snowflake、Leaf、Tinyid 等方案。
-- [分布式 ID 设计实战](./distributed-id-design.md)：结合订单号、支付码、优惠券、一码付等业务场景理解业务 ID 设计。
-- [分布式锁入门](./distributed-lock.md)：理解互斥语义、锁粒度、安全释放、超时续约和 Fencing Token。
-- [分布式锁实现方案详解](./distributed-lock-implementations.md)：对比 Redis、Redisson、Redlock、ZooKeeper 和 Curator 分布式锁。
-- [分布式事务解决方案详解](./distributed-transaction.md)：系统理解 XA、AT、TCC、Saga、本地消息表、事务消息和最大努力通知。
+- [分布式 ID 生成方案详解](./分布式ID生成.md)：对比 UUID、数据库自增、号段模式、Redis、Snowflake、Leaf、Tinyid 等方案。
+- [分布式 ID 设计实战](./分布式ID设计.md)：结合订单号、支付码、优惠券、一码付等业务场景理解业务 ID 设计。
+- [分布式锁入门](./分布式锁入门.md)：理解互斥语义、锁粒度、安全释放、超时续约和 Fencing Token。
+- [分布式锁实现方案详解](./分布式锁实现方案.md)：对比 Redis、Redisson、Redlock、ZooKeeper 和 Curator 分布式锁。
+- [分布式事务解决方案详解](./分布式事务.md)：系统理解 XA、AT、TCC、Saga、本地消息表、事务消息和最大努力通知。
 
 ### 配置中心与 ZooKeeper
 
 配置中心和 ZooKeeper 主要解决服务配置、注册发现、分布式协调和集群一致性问题。
 
-- [分布式配置中心详解](./distributed-configuration-center.md)：对比 Apollo、Nacos、Spring Cloud Config 和 Kubernetes ConfigMap。
+- [分布式配置中心详解](./分布式配置中心.md)：对比 Apollo、Nacos、Spring Cloud Config 和 Kubernetes ConfigMap。
 - [ZooKeeper 专题](./分布式协调/zookeeper/)：从 ZooKeeper 核心概念讲到 ZAB、Leader 选举、Curator 和分布式锁实践。
-- [ZooKeeper 入门指南](./分布式协调/zookeeper/zookeeper-intro.md)：掌握 ZNode、Watcher、ACL 和典型应用场景。
-- [ZooKeeper 进阶详解](./分布式协调/zookeeper/zookeeper-plus.md)：理解 ZAB 协议、Leader 选举、集群部署和会话管理。
-- [ZooKeeper 实战教程](./分布式协调/zookeeper/zookeeper-in-action.md)：通过 Docker、zkCli、四字命令和 Curator 完成实践。
+- [ZooKeeper 入门指南](./分布式协调/zookeeper/ZooKeeper入门.md)：掌握 ZNode、Watcher、ACL 和典型应用场景。
+- [ZooKeeper 进阶详解](./分布式协调/zookeeper/ZooKeeper进阶.md)：理解 ZAB 协议、Leader 选举、集群部署和会话管理。
+- [ZooKeeper 实战教程](./分布式协调/zookeeper/ZooKeeper实战.md)：通过 Docker、zkCli、四字命令和 Curator 完成实践。
 
 ## 高频问题
 

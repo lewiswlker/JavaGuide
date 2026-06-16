@@ -34,14 +34,14 @@ Maven 是 Java 后端项目中最常见的构建和依赖管理工具。学习 M
 
 ## 建议阅读顺序
 
-1. [Maven 核心概念总结](./maven-core-concepts.md)：先理解 POM、坐标、仓库、依赖、生命周期、插件和多模块项目。
-2. [Maven 最佳实践](./maven-best-practices.md)：再学习标准目录结构、编译插件、依赖版本管理、多模块管理和常见实践。
+1. [Maven 核心概念总结](./Maven核心概念.md)：先理解 POM、坐标、仓库、依赖、生命周期、插件和多模块项目。
+2. [Maven 最佳实践](./Maven最佳实践.md)：再学习标准目录结构、编译插件、依赖版本管理、多模块管理和常见实践。
 3. 结合一个 Spring Boot 项目查看 `pom.xml`：重点看父工程、依赖范围、插件配置和最终依赖树。
 
 ## 核心文章
 
-- [Maven 核心概念总结](./maven-core-concepts.md)：系统介绍 Maven 的定位、POM、坐标、仓库、依赖、生命周期、插件和多模块项目。
-- [Maven 最佳实践](./maven-best-practices.md)：整理标准目录结构、编译器插件、依赖版本统一、多模块管理和日常使用建议。
+- [Maven 核心概念总结](./Maven核心概念.md)：系统介绍 Maven 的定位、POM、坐标、仓库、依赖、生命周期、插件和多模块项目。
+- [Maven 最佳实践](./Maven最佳实践.md)：整理标准目录结构、编译器插件、依赖版本统一、多模块管理和日常使用建议。
 
 ## 高频问题
 
@@ -57,8 +57,8 @@ Maven 是 Java 后端项目中最常见的构建和依赖管理工具。学习 M
 ## 相关专题
 
 - [开发工具知识体系](../)
-- [Gradle 核心概念总结](../gradle/gradle-core-concepts.md)
+- [Gradle 核心概念总结](../gradle/Gradle核心概念.md)
 - [Git 专题](../git/)
-- [Java 基础](../../java/基础/java-basic-questions-01.md)
+- [Java 基础](../../java/基础/Java基础常见面试题01.md)
 
 <!-- @include: @article-footer.snippet.md -->

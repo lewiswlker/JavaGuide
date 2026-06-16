@@ -51,42 +51,42 @@ head:
 ### Java 基础
 
 - [Java 基础专题](./基础/)：从基础语法讲到核心机制和常见 Java 面试题。
-- [Java基础常见面试题总结(上)](./基础/java-basic-questions-01.md)：覆盖 Java 语言特点、基础语法、面向对象和常用类。
-- [Java基础常见面试题总结(中)](./基础/java-basic-questions-02.md)：继续梳理异常、泛型、反射、注解和常见细节。
-- [Java基础常见面试题总结(下)](./基础/java-basic-questions-03.md)：补齐高级基础知识和常见易错点。
-- [Java 值传递详解](./基础/why-there-only-value-passing-in-java.md)：厘清值传递、引用变量和对象修改之间的关系。
-- [Java 序列化详解](./基础/serialization.md)：理解序列化机制、serialVersionUID、安全风险和替代方案。
-- [Java 反射机制详解](./基础/reflection.md) 和 [Java 代理模式详解](./基础/proxy.md)：掌握框架底层常见机制。
+- [Java基础常见面试题总结(上)](./基础/Java基础常见面试题01.md)：覆盖 Java 语言特点、基础语法、面向对象和常用类。
+- [Java基础常见面试题总结(中)](./基础/Java基础常见面试题02.md)：继续梳理异常、泛型、反射、注解和常见细节。
+- [Java基础常见面试题总结(下)](./基础/Java基础常见面试题03.md)：补齐高级基础知识和常见易错点。
+- [Java 值传递详解](./基础/为什么Java只有值传递.md)：厘清值传递、引用变量和对象修改之间的关系。
+- [Java 序列化详解](./基础/序列化.md)：理解序列化机制、serialVersionUID、安全风险和替代方案。
+- [Java 反射机制详解](./基础/反射.md) 和 [Java 代理模式详解](./基础/代理模式.md)：掌握框架底层常见机制。
 
 ### Java 集合
 
 - [Java 集合专题](./集合/)：串联集合框架、使用注意事项和常见源码分析。
-- [Java集合常见面试题总结(上)](./集合/java-collection-questions-01.md) 和 [Java集合常见面试题总结(下)](./集合/java-collection-questions-02.md)：覆盖 List、Set、Map、Queue 和并发集合高频问题。
-- [Java集合使用注意事项总结](./集合/java-collection-precautions-for-use.md)：总结集合判空、遍历、扩容、线程安全和性能相关注意点。
-- [ArrayList 源码分析](./集合/arraylist-source-code.md)、[HashMap 源码分析](./集合/hashmap-source-code.md)、[ConcurrentHashMap 源码分析](./集合/concurrent-hash-map-source-code.md)：从源码理解常用容器的设计取舍。
+- [Java集合常见面试题总结(上)](./集合/Java集合常见面试题01.md) 和 [Java集合常见面试题总结(下)](./集合/Java集合常见面试题02.md)：覆盖 List、Set、Map、Queue 和并发集合高频问题。
+- [Java集合使用注意事项总结](./集合/Java集合使用注意事项.md)：总结集合判空、遍历、扩容、线程安全和性能相关注意点。
+- [ArrayList 源码分析](./集合/ArrayList源码.md)、[HashMap 源码分析](./集合/HashMap源码.md)、[ConcurrentHashMap 源码分析](./集合/ConcurrentHashMap源码.md)：从源码理解常用容器的设计取舍。
 
 ### Java 并发
 
 - [Java 并发编程专题](./并发/)：围绕线程、锁、内存模型、线程池和并发工具展开。
-- [Java并发常见面试题总结（上）](./并发/java-concurrent-questions-01.md)、[Java并发常见面试题总结（中）](./并发/java-concurrent-questions-02.md)、[Java并发常见面试题总结（下）](./并发/java-concurrent-questions-03.md)：建立并发面试问题清单。
-- [JMM（Java 内存模型）详解](./并发/jmm.md)：理解可见性、原子性、有序性和 happens-before。
-- [CAS 详解](./并发/cas.md)、[AQS 详解](./并发/aqs.md)、[Java 线程池详解](./并发/java-thread-pool-summary.md)：掌握并发底层高频考点。
-- [虚拟线程常见问题总结](./并发/virtual-thread.md)：理解 Project Loom 对并发模型的影响。
+- [Java并发常见面试题总结（上）](./并发/Java并发常见面试题01.md)、[Java并发常见面试题总结（中）](./并发/Java并发常见面试题02.md)、[Java并发常见面试题总结（下）](./并发/Java并发常见面试题03.md)：建立并发面试问题清单。
+- [JMM（Java 内存模型）详解](./并发/JMM内存模型.md)：理解可见性、原子性、有序性和 happens-before。
+- [CAS 详解](./并发/CAS详解.md)、[AQS 详解](./并发/AQS详解.md)、[Java 线程池详解](./并发/线程池详解.md)：掌握并发底层高频考点。
+- [虚拟线程常见问题总结](./并发/虚拟线程.md)：理解 Project Loom 对并发模型的影响。
 
 ### JVM 与 IO
 
 - [JVM 专题](./jvm/)：围绕内存、类加载、GC、参数、工具和线上排查展开。
-- [Java内存区域详解（重点）](./jvm/memory-area.md)：理解程序计数器、虚拟机栈、本地方法栈、堆和方法区。
-- [JVM垃圾回收详解（重点）](./jvm/jvm-garbage-collection.md)：理解对象存活判断、垃圾收集算法和主流垃圾收集器。
-- [类加载过程详解](./jvm/class-loading-process.md) 和 [类加载器详解（重点）](./jvm/classloader.md)：掌握类生命周期和双亲委派模型。
+- [Java内存区域详解（重点）](./jvm/运行时数据区.md)：理解程序计数器、虚拟机栈、本地方法栈、堆和方法区。
+- [JVM垃圾回收详解（重点）](./jvm/JVM垃圾回收.md)：理解对象存活判断、垃圾收集算法和主流垃圾收集器。
+- [类加载过程详解](./jvm/类加载过程.md) 和 [类加载器详解（重点）](./jvm/类加载器.md)：掌握类生命周期和双亲委派模型。
 - [Java IO 专题](./io/)：从 BIO、NIO、AIO 讲到 IO 模型和 IO 设计模式。
-- [Java IO 基础知识总结](./io/io-basis.md)、[Java NIO 核心知识总结](./io/nio-basis.md)、[Java IO 模型详解](./io/io-model.md)：补齐网络编程和中间件学习前置知识。
+- [Java IO 基础知识总结](./io/IO基础.md)、[Java NIO 核心知识总结](./io/NIO基础.md)、[Java IO 模型详解](./io/IO模型.md)：补齐网络编程和中间件学习前置知识。
 
 ### Java 新特性
 
 - [Java 新特性专题](./新特性/)：按版本梳理 Java 8 之后的重要语言、标准库和 JVM 特性。
-- [Java8 新特性实战](./新特性/java8-common-new-features.md)：掌握 Lambda、Stream、Optional、接口默认方法和新日期 API。
-- [Java 11 新特性概览（重要）](./新特性/java11.md)、[Java 17 新特性概览（重要）](./新特性/java17.md)、[Java 21 新特性概览(重要)](./新特性/java21.md)：优先关注 LTS 版本中的长期可用特性。
+- [Java8 新特性实战](./新特性/Java8常用新特性.md)：掌握 Lambda、Stream、Optional、接口默认方法和新日期 API。
+- [Java 11 新特性概览（重要）](./新特性/Java11新特性.md)、[Java 17 新特性概览（重要）](./新特性/Java17新特性.md)、[Java 21 新特性概览(重要)](./新特性/Java21新特性.md)：优先关注 LTS 版本中的长期可用特性。
 
 ## 高频问题
 

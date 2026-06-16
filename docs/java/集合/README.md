@@ -34,34 +34,34 @@ Java 集合是业务开发中使用频率最高的基础库之一，也是 Java 
 
 ## 建议阅读顺序
 
-1. [Java集合常见面试题总结(上)](./java-collection-questions-01.md)：先建立集合框架和常见容器的问题清单。
-2. [Java集合常见面试题总结(下)](./java-collection-questions-02.md)：继续补齐 Map、Queue、并发集合和源码细节。
-3. [Java集合使用注意事项总结](./java-collection-precautions-for-use.md)：掌握项目里真正容易踩坑的使用方式。
-4. [ArrayList 源码分析](./arraylist-source-code.md)、[LinkedList 源码分析](./linkedlist-source-code.md)、[HashMap 源码分析](./hashmap-source-code.md)：从最常用容器开始读源码。
-5. [ConcurrentHashMap 源码分析](./concurrent-hash-map-source-code.md)、[CopyOnWriteArrayList 源码分析](./copyonwritearraylist-source-code.md)、[ArrayBlockingQueue 源码分析](./arrayblockingqueue-source-code.md)：再进入并发集合和阻塞队列。
+1. [Java集合常见面试题总结(上)](./Java集合常见面试题01.md)：先建立集合框架和常见容器的问题清单。
+2. [Java集合常见面试题总结(下)](./Java集合常见面试题02.md)：继续补齐 Map、Queue、并发集合和源码细节。
+3. [Java集合使用注意事项总结](./Java集合使用注意事项.md)：掌握项目里真正容易踩坑的使用方式。
+4. [ArrayList 源码分析](./ArrayList源码.md)、[LinkedList 源码分析](./LinkedList源码.md)、[HashMap 源码分析](./HashMap源码.md)：从最常用容器开始读源码。
+5. [ConcurrentHashMap 源码分析](./ConcurrentHashMap源码.md)、[CopyOnWriteArrayList 源码分析](./CopyOnWriteArrayList源码.md)、[ArrayBlockingQueue 源码分析](./ArrayBlockingQueue源码.md)：再进入并发集合和阻塞队列。
 
 ## 核心文章
 
 ### 集合面试与使用规范
 
-- [Java集合常见面试题总结(上)](./java-collection-questions-01.md)：覆盖集合框架、List、Set、Map、Queue 的基础问题。
-- [Java集合常见面试题总结(下)](./java-collection-questions-02.md)：继续梳理哈希表、并发集合、集合源码和常见易错点。
-- [Java集合使用注意事项总结](./java-collection-precautions-for-use.md)：总结集合初始化、判空、遍历删除、线程安全和性能相关注意事项。
+- [Java集合常见面试题总结(上)](./Java集合常见面试题01.md)：覆盖集合框架、List、Set、Map、Queue 的基础问题。
+- [Java集合常见面试题总结(下)](./Java集合常见面试题02.md)：继续梳理哈希表、并发集合、集合源码和常见易错点。
+- [Java集合使用注意事项总结](./Java集合使用注意事项.md)：总结集合初始化、判空、遍历删除、线程安全和性能相关注意事项。
 
 ### List 与 Map 源码
 
-- [ArrayList 源码分析](./arraylist-source-code.md)：理解动态数组、扩容、随机访问和迭代器。
-- [LinkedList 源码分析](./linkedlist-source-code.md)：理解双向链表、头尾操作和适用场景。
-- [HashMap 源码分析](./hashmap-source-code.md)：理解数组、链表、红黑树、扰动函数、扩容和树化。
-- [LinkedHashMap 源码分析](./linkedhashmap-source-code.md)：理解访问顺序、插入顺序和 LRU 场景。
+- [ArrayList 源码分析](./ArrayList源码.md)：理解动态数组、扩容、随机访问和迭代器。
+- [LinkedList 源码分析](./LinkedList源码.md)：理解双向链表、头尾操作和适用场景。
+- [HashMap 源码分析](./HashMap源码.md)：理解数组、链表、红黑树、扰动函数、扩容和树化。
+- [LinkedHashMap 源码分析](./LinkedHashMap源码.md)：理解访问顺序、插入顺序和 LRU 场景。
 
 ### 并发集合与队列
 
-- [ConcurrentHashMap 源码分析](./concurrent-hash-map-source-code.md)：理解分段锁到 CAS + synchronized 的演进。
-- [CopyOnWriteArrayList 源码分析](./copyonwritearraylist-source-code.md)：理解写时复制和读多写少场景。
-- [ArrayBlockingQueue 源码分析](./arrayblockingqueue-source-code.md)：理解有界阻塞队列、锁和条件队列。
-- [PriorityQueue 源码分析（付费）](./priorityqueue-source-code.md)：理解堆结构和优先级队列。
-- [DelayQueue 源码分析](./delayqueue-source-code.md)：理解延迟队列、优先级队列和定时任务场景。
+- [ConcurrentHashMap 源码分析](./ConcurrentHashMap源码.md)：理解分段锁到 CAS + synchronized 的演进。
+- [CopyOnWriteArrayList 源码分析](./CopyOnWriteArrayList源码.md)：理解写时复制和读多写少场景。
+- [ArrayBlockingQueue 源码分析](./ArrayBlockingQueue源码.md)：理解有界阻塞队列、锁和条件队列。
+- [PriorityQueue 源码分析（付费）](./PriorityQueue源码.md)：理解堆结构和优先级队列。
+- [DelayQueue 源码分析](./DelayQueue源码.md)：理解延迟队列、优先级队列和定时任务场景。
 
 ## 高频问题
 

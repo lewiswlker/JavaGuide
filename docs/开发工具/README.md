@@ -38,33 +38,33 @@ head:
 
 ## 建议阅读顺序
 
-1. [Git 核心概念总结](./git/git-intro.md)：先掌握版本控制、提交、分支、合并和协作流程。
-2. [Maven 核心概念总结](./maven/maven-core-concepts.md)：理解 Java 项目构建、POM、坐标、仓库、依赖和生命周期。
-3. [Maven 最佳实践](./maven/maven-best-practices.md)：补齐依赖版本管理、多模块项目和日常使用规范。
-4. [Docker 核心概念总结](./docker/docker-intro.md)：建立镜像、容器、仓库和 Docker 引擎的基本认知。
-5. [Docker 实战](./docker/docker-in-action.md)：通过命令和场景练习容器管理、镜像构建和服务部署。
-6. [Gradle 核心概念总结](./gradle/gradle-core-concepts.md) 和 [GitHub 实用小技巧总结](./git/github-tips.md)：按项目需要补充 Gradle 与 GitHub 使用技巧。
+1. [Git 核心概念总结](./git/Git入门.md)：先掌握版本控制、提交、分支、合并和协作流程。
+2. [Maven 核心概念总结](./maven/Maven核心概念.md)：理解 Java 项目构建、POM、坐标、仓库、依赖和生命周期。
+3. [Maven 最佳实践](./maven/Maven最佳实践.md)：补齐依赖版本管理、多模块项目和日常使用规范。
+4. [Docker 核心概念总结](./docker/Docker入门.md)：建立镜像、容器、仓库和 Docker 引擎的基本认知。
+5. [Docker 实战](./docker/Docker实战.md)：通过命令和场景练习容器管理、镜像构建和服务部署。
+6. [Gradle 核心概念总结](./gradle/Gradle核心概念.md) 和 [GitHub 实用小技巧总结](./git/GitHub技巧.md)：按项目需要补充 Gradle 与 GitHub 使用技巧。
 
 ## 核心文章
 
 ### 项目构建与依赖管理
 
 - [Maven 专题](./maven/)：讲清 Maven 核心概念和最佳实践，是 Java 后端项目构建最常用的工具专题。
-- [Maven 核心概念总结](./maven/maven-core-concepts.md)：理解 POM、坐标、仓库、依赖范围、生命周期、插件和多模块项目。
-- [Maven 最佳实践](./maven/maven-best-practices.md)：整理标准目录结构、编译插件、依赖管理、多模块管理和常用实践建议。
-- [Gradle 核心概念总结](./gradle/gradle-core-concepts.md)：了解 Gradle、Groovy、Gradle Wrapper、插件和 Task 等核心概念。
+- [Maven 核心概念总结](./maven/Maven核心概念.md)：理解 POM、坐标、仓库、依赖范围、生命周期、插件和多模块项目。
+- [Maven 最佳实践](./maven/Maven最佳实践.md)：整理标准目录结构、编译插件、依赖管理、多模块管理和常用实践建议。
+- [Gradle 核心概念总结](./gradle/Gradle核心概念.md)：了解 Gradle、Groovy、Gradle Wrapper、插件和 Task 等核心概念。
 
 ### 版本控制与代码协作
 
 - [Git 专题](./git/)：围绕 Git 核心概念、工作流和 GitHub 提效技巧展开。
-- [Git 核心概念总结](./git/git-intro.md)：理解版本控制、工作区、暂存区、提交、分支、合并、冲突和远程仓库。
-- [GitHub 实用小技巧总结](./git/github-tips.md)：整理个人主页、项目徽章、代码阅读、搜索和开源协作相关技巧。
+- [Git 核心概念总结](./git/Git入门.md)：理解版本控制、工作区、暂存区、提交、分支、合并、冲突和远程仓库。
+- [GitHub 实用小技巧总结](./git/GitHub技巧.md)：整理个人主页、项目徽章、代码阅读、搜索和开源协作相关技巧。
 
 ### 容器化与本地环境
 
 - [Docker 专题](./docker/)：从核心概念到实战操作，帮助理解容器化交付和环境一致性。
-- [Docker 核心概念总结](./docker/docker-intro.md)：理解容器、镜像、仓库、Docker 引擎以及容器和虚拟机的区别。
-- [Docker 实战](./docker/docker-in-action.md)：通过镜像、容器、网络、数据卷和常见命令完成 Docker 入门实践。
+- [Docker 核心概念总结](./docker/Docker入门.md)：理解容器、镜像、仓库、Docker 引擎以及容器和虚拟机的区别。
+- [Docker 实战](./docker/Docker实战.md)：通过镜像、容器、网络、数据卷和常见命令完成 Docker 入门实践。
 
 ### IDE 与效率工具
 
@@ -85,7 +85,7 @@ head:
 ## 相关专题
 
 - [面试准备](../面试准备/)
-- [Java 基础](../java/基础/java-basic-questions-01.md)
+- [Java 基础](../java/基础/Java基础常见面试题01.md)
 - [Spring&Spring Boot](../系统设计/常用框架/spring/)
 - [开源项目](../开源项目/)
 

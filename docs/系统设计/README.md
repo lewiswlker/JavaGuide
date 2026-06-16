@@ -54,27 +54,27 @@ head:
 
 - [系统设计常见面试题总结](./system-design-questions.md)：覆盖短链系统、秒杀系统、海量数据处理等系统设计场景题。
 - [系统设计基础专题](./基础/)：从 RESTful API、软件工程讲到代码命名、代码重构和单元测试。
-- [RestFul API 简明教程](./基础/RESTfulAPI.md)：理解资源建模、HTTP 方法、状态码和接口设计规范。
-- [代码重构指南](./基础/refactoring.md)：理解代码坏味道、重构原则和常见重构手法。
-- [单元测试到底是什么？应该怎么做？](./基础/unit-test.md)：理解单元测试、Mock、Stub、测试金字塔和 JUnit 基础。
+- [RestFul API 简明教程](./基础/RESTful-API.md)：理解资源建模、HTTP 方法、状态码和接口设计规范。
+- [代码重构指南](./基础/重构.md)：理解代码坏味道、重构原则和常见重构手法。
+- [单元测试到底是什么？应该怎么做？](./基础/单元测试指南.md)：理解单元测试、Mock、Stub、测试金字塔和 JUnit 基础。
 - [设计模式常见面试题总结](./design-pattern.md)：梳理单例、工厂、代理、责任链、策略、观察者等常见设计模式。
 
 ### 常用框架
 
 - [Spring & Spring Boot 专题](./常用框架/spring/)：串联 Spring、Spring MVC、Spring Boot 的常见问题。
-- [Spring常见面试题总结](./常用框架/spring/spring-knowledge-and-questions-summary.md)：覆盖 IoC、AOP、Bean 生命周期、依赖注入等核心问题。
-- [SpringBoot常见面试题总结](./常用框架/spring/springboot-knowledge-and-questions-summary.md)：覆盖自动配置、Starter、配置加载和 Actuator 等问题。
-- [MyBatis常见面试题总结](./常用框架/mybatis/mybatis-interview.md)：理解 `#{}`、`${}`、动态 SQL、缓存、分页插件和 Mapper 映射。
+- [Spring常见面试题总结](./常用框架/spring/Spring面试题.md)：覆盖 IoC、AOP、Bean 生命周期、依赖注入等核心问题。
+- [SpringBoot常见面试题总结](./常用框架/spring/SpringBoot面试题.md)：覆盖自动配置、Starter、配置加载和 Actuator 等问题。
+- [MyBatis常见面试题总结](./常用框架/mybatis/MyBatis面试题.md)：理解 `#{}`、`${}`、动态 SQL、缓存、分页插件和 Mapper 映射。
 - [Netty常见面试题总结](./常用框架/netty.md)：了解高性能网络编程、Reactor 模型、事件循环和 ChannelPipeline。
 
 ### 认证授权与数据安全
 
 - [认证授权与数据安全专题](./安全/)：围绕认证授权、JWT、SSO、权限系统、加密、脱敏和数据校验展开。
-- [认证授权基础概念详解](./安全/basis-of-authority-certification.md)：理解认证、授权、Session、Token、OAuth2 等基础概念。
-- [JWT 基础概念详解](./安全/jwt-intro.md)：理解 JWT 组成、签名、工作流程和登录鉴权场景。
-- [权限系统设计详解](./安全/design-of-authority-system.md)：理解 RBAC 权限模型和权限系统设计。
-- [常见加密算法总结](./安全/encryption-algorithms.md)：理解对称加密、非对称加密、哈希算法和常见应用场景。
-- [数据脱敏方案总结](./安全/data-desensitization.md)：理解常见敏感数据脱敏规则和工程实现。
+- [认证授权基础概念详解](./安全/认证授权基础.md)：理解认证、授权、Session、Token、OAuth2 等基础概念。
+- [JWT 基础概念详解](./安全/JWT入门.md)：理解 JWT 组成、签名、工作流程和登录鉴权场景。
+- [权限系统设计详解](./安全/权限系统设计.md)：理解 RBAC 权限模型和权限系统设计。
+- [常见加密算法总结](./安全/加密算法.md)：理解对称加密、非对称加密、哈希算法和常见应用场景。
+- [数据脱敏方案总结](./安全/数据脱敏.md)：理解常见敏感数据脱敏规则和工程实现。
 
 ### 任务调度与消息推送
 
@@ -103,6 +103,6 @@ head:
 - [高可用系统知识体系](../高可用/)
 - [分布式系统知识体系](../分布式系统/)
 - [数据库](../数据库/)
-- [计算机网络](../计算机基础/计算机网络/other-network-questions.md)
+- [计算机网络](../计算机基础/计算机网络/计算机网络常见面试题01.md)
 
 <!-- @include: @article-footer.snippet.md -->

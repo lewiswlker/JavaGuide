@@ -35,37 +35,37 @@ Java 并发编程是后端开发和面试中最重要、也最容易混淆的模
 
 ## 建议阅读顺序
 
-1. [Java并发常见面试题总结（上）](./java-concurrent-questions-01.md)：先建立线程、锁和线程安全的基础问题清单。
-2. [Java并发常见面试题总结（中）](./java-concurrent-questions-02.md) 和 [Java并发常见面试题总结（下）](./java-concurrent-questions-03.md)：继续补齐 JMM、CAS、AQS、线程池和并发工具。
-3. [乐观锁和悲观锁详解](./optimistic-lock-and-pessimistic-lock.md)、[CAS 详解](./cas.md)、[JMM（Java 内存模型）详解](./jmm.md)：理解并发控制的底层语义。
-4. [AQS 详解](./aqs.md)、[从ReentrantLock的实现看AQS的原理及应用](./reentrantlock.md)：深入理解 Java 锁和同步器。
-5. [Java 线程池详解](./java-thread-pool-summary.md) 和 [Java 线程池最佳实践](./java-thread-pool-best-practices.md)：掌握生产中最常用的并发基础设施。
+1. [Java并发常见面试题总结（上）](./Java并发常见面试题01.md)：先建立线程、锁和线程安全的基础问题清单。
+2. [Java并发常见面试题总结（中）](./Java并发常见面试题02.md) 和 [Java并发常见面试题总结（下）](./Java并发常见面试题03.md)：继续补齐 JMM、CAS、AQS、线程池和并发工具。
+3. [乐观锁和悲观锁详解](./乐观锁与悲观锁.md)、[CAS 详解](./CAS详解.md)、[JMM（Java 内存模型）详解](./JMM内存模型.md)：理解并发控制的底层语义。
+4. [AQS 详解](./AQS详解.md)、[从ReentrantLock的实现看AQS的原理及应用](./ReentrantLock详解.md)：深入理解 Java 锁和同步器。
+5. [Java 线程池详解](./线程池详解.md) 和 [Java 线程池最佳实践](./线程池最佳实践.md)：掌握生产中最常用的并发基础设施。
 
 ## 核心文章
 
 ### 并发面试题
 
-- [Java并发常见面试题总结（上）](./java-concurrent-questions-01.md)：覆盖线程基础、线程安全、锁和常见并发问题。
-- [Java并发常见面试题总结（中）](./java-concurrent-questions-02.md)：继续梳理 JMM、volatile、CAS、AQS 等核心知识。
-- [Java并发常见面试题总结（下）](./java-concurrent-questions-03.md)：补齐线程池、并发工具类、CompletableFuture 和虚拟线程等内容。
+- [Java并发常见面试题总结（上）](./Java并发常见面试题01.md)：覆盖线程基础、线程安全、锁和常见并发问题。
+- [Java并发常见面试题总结（中）](./Java并发常见面试题02.md)：继续梳理 JMM、volatile、CAS、AQS 等核心知识。
+- [Java并发常见面试题总结（下）](./Java并发常见面试题03.md)：补齐线程池、并发工具类、CompletableFuture 和虚拟线程等内容。
 
 ### 锁、内存模型与同步器
 
-- [乐观锁和悲观锁详解](./optimistic-lock-and-pessimistic-lock.md)：理解不同并发冲突处理策略。
-- [CAS 详解](./cas.md)：理解比较并交换、ABA 问题和自旋开销。
-- [JMM（Java 内存模型）详解](./jmm.md)：掌握可见性、原子性、有序性和 happens-before。
-- [AQS 详解](./aqs.md)：理解同步队列、独占/共享模式和常见同步器底层。
-- [从ReentrantLock的实现看AQS的原理及应用](./reentrantlock.md)：通过 ReentrantLock 深入理解 AQS。
+- [乐观锁和悲观锁详解](./乐观锁与悲观锁.md)：理解不同并发冲突处理策略。
+- [CAS 详解](./CAS详解.md)：理解比较并交换、ABA 问题和自旋开销。
+- [JMM（Java 内存模型）详解](./JMM内存模型.md)：掌握可见性、原子性、有序性和 happens-before。
+- [AQS 详解](./AQS详解.md)：理解同步队列、独占/共享模式和常见同步器底层。
+- [从ReentrantLock的实现看AQS的原理及应用](./ReentrantLock详解.md)：通过 ReentrantLock 深入理解 AQS。
 
 ### 并发工具与工程实践
 
-- [Java 线程池详解](./java-thread-pool-summary.md)：理解核心参数、任务队列、拒绝策略和执行流程。
-- [Java 线程池最佳实践](./java-thread-pool-best-practices.md)：总结生产环境中线程池隔离、参数配置和监控建议。
-- [Java 常见并发容器总结](./java-concurrent-collections.md)：梳理 ConcurrentHashMap、CopyOnWriteArrayList、BlockingQueue 等容器。
-- [Atomic 原子类总结](./atomic-classes.md)：理解原子更新基本类型、数组、引用和字段。
-- [ThreadLocal 详解](./threadlocal.md)：理解线程本地变量、ThreadLocalMap 和内存泄漏风险。
-- [CompletableFuture 详解](./completablefuture-intro.md)：掌握异步编排、异常处理和线程池使用。
-- [虚拟线程常见问题总结](./virtual-thread.md)：理解虚拟线程的定位、适用场景和使用限制。
+- [Java 线程池详解](./线程池详解.md)：理解核心参数、任务队列、拒绝策略和执行流程。
+- [Java 线程池最佳实践](./线程池最佳实践.md)：总结生产环境中线程池隔离、参数配置和监控建议。
+- [Java 常见并发容器总结](./Java并发集合.md)：梳理 ConcurrentHashMap、CopyOnWriteArrayList、BlockingQueue 等容器。
+- [Atomic 原子类总结](./原子类.md)：理解原子更新基本类型、数组、引用和字段。
+- [ThreadLocal 详解](./ThreadLocal详解.md)：理解线程本地变量、ThreadLocalMap 和内存泄漏风险。
+- [CompletableFuture 详解](./CompletableFuture详解.md)：掌握异步编排、异常处理和线程池使用。
+- [虚拟线程常见问题总结](./虚拟线程.md)：理解虚拟线程的定位、适用场景和使用限制。
 
 ## 高频问题
 

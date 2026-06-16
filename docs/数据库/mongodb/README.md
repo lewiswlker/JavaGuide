@@ -35,14 +35,14 @@ MongoDB 是典型的文档数据库，适合半结构化数据、灵活字段模
 ## 建议阅读顺序
 
 1. [NoSQL 基础常见面试题总结](../nosql.md)：先理解 NoSQL 分类、适用场景和与关系型数据库的差异。
-2. [MongoDB 常见面试题总结（上）](./mongodb-questions-01.md)：学习 MongoDB 基础概念、文档模型、索引和查询。
-3. [MongoDB 常见面试题总结（下）](./mongodb-questions-02.md)：继续理解副本集、分片、事务、聚合和生产实践。
+2. [MongoDB 常见面试题总结（上）](./MongoDB面试题01.md)：学习 MongoDB 基础概念、文档模型、索引和查询。
+3. [MongoDB 常见面试题总结（下）](./MongoDB面试题02.md)：继续理解副本集、分片、事务、聚合和生产实践。
 4. 再回到 [数据库知识体系](../)，把 MongoDB 与 MySQL、Redis、Elasticsearch 的定位放在一起比较。
 
 ## 核心文章
 
-- [MongoDB 常见面试题总结（上）](./mongodb-questions-01.md)：覆盖 MongoDB 基础概念、文档模型、集合、查询、索引和常见使用问题。
-- [MongoDB 常见面试题总结（下）](./mongodb-questions-02.md)：覆盖副本集、分片、事务、聚合、读写关注、存储引擎和生产实践。
+- [MongoDB 常见面试题总结（上）](./MongoDB面试题01.md)：覆盖 MongoDB 基础概念、文档模型、集合、查询、索引和常见使用问题。
+- [MongoDB 常见面试题总结（下）](./MongoDB面试题02.md)：覆盖副本集、分片、事务、聚合、读写关注、存储引擎和生产实践。
 - [NoSQL 基础常见面试题总结](../nosql.md)：帮助理解 MongoDB 在 NoSQL 体系中的定位，以及与键值、列族、图数据库的区别。
 
 ## 高频问题
