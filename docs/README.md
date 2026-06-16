@@ -54,13 +54,13 @@ footer: |-
 - 如果你更喜欢 **PDF**（比如通勤/离线阅读/打印学习），扫描下方二维码，后台回复“**PDF**”即可获取最新版（持续更新，详细介绍见：**[2026 最新后端面试 PDF 资料](./面试准备/pdf-interview-javaguide.md)**）。
 - 如果你需要加入后端面试交流群，扫描下方二维码，后台回复“**微信**”即可加群。
 
-<img src="https://oss.javaguide.cn/github/项目介绍/gongzhonghao-javaguide.png" alt="JavaGuide 公众号" style="zoom: 43%; display: block; margin: 0 auto;" />
+<img src="https://oss.javaguide.cn/github/javaguide/gongzhonghao-javaguide.png" alt="JavaGuide 公众号" style="zoom: 43%; display: block; margin: 0 auto;" />
 
 ## 🌐 关于网站
 
 JavaGuide 已经持续维护 6 年多了，累计提交 **6200+** commit ，共有 **640+** 多位贡献者共同参与维护和完善。
 
-![JavaGuide 目前的 Star、Fork、Issue 和 PR 情况](https://oss.javaguide.cn/github/项目介绍/intro/javaguide-star-issue-pr.png)
+![JavaGuide 目前的 Star、Fork、Issue 和 PR 情况](https://oss.javaguide.cn/github/javaguide/intro/javaguide-star-issue-pr.png)
 
 网站内容覆盖：
 

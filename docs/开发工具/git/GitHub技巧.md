@@ -134,7 +134,7 @@ Github 前段时间推出的 Codespaces 可以提供类似 VS Code 的在线 IDE
 4. Github Collections 类似一个收藏夹集合。比如 [Teaching materials for computational social science](https://github.com/collections/teaching-computational-social-science) 这个收藏夹就汇总了计算机课程相关的开源资源，[Learn to Code](https://github.com/collections/learn-to-code) 这个收藏夹就汇总了对你学习编程有帮助的一些仓库；
 5. ……
 
-![](https://oss.javaguide.cn/github/项目介绍/github-explore.png)
+![](https://oss.javaguide.cn/github/javaguide/github-explore.png)
 
 ## GitHub Actions 很强大
 
@@ -144,7 +144,7 @@ Github 前段时间推出的 Codespaces 可以提供类似 VS Code 的在线 IDE
 
 GitHub Actions 有一个官方市场，上面有非常多别人提交的 Actions ，你可以直接拿来使用。
 
-![](https://oss.javaguide.cn/github/项目介绍/image-20211227100147433.png)
+![](https://oss.javaguide.cn/github/javaguide/image-20211227100147433.png)
 
 ## 后记
 

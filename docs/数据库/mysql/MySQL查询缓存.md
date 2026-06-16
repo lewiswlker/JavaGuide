@@ -27,7 +27,7 @@ head:
 
 MySQL 体系架构如下图所示：
 
-![](https://oss.javaguide.cn/github/项目介绍/mysql/mysql-architecture.png)
+![](https://oss.javaguide.cn/github/javaguide/mysql/mysql-architecture.png)
 
 为了提高完全相同的查询语句的响应速度，MySQL Server 会对查询语句进行 Hash 计算得到一个 Hash 值。MySQL Server 不会对 SQL 做任何处理，SQL 必须完全一致 Hash 值才会一样。得到 Hash 值之后，通过该 Hash 值到查询缓存中匹配该查询的结果。
 

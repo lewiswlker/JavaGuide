@@ -60,7 +60,7 @@ npm install -g @anthropic-ai/claude-code
 
 一共有三个下载选项：
 
-![Superpowers 下载](https://oss.javaguide.cn/github/项目介绍/AI/superpowers/superpowers-download.png)
+![Superpowers 下载](https://oss.javaguide.cn/github/javaguide/ai/superpowers/superpowers-download.png)
 
 | **选项**                                             | **作用范围**                                                |
 | ---------------------------------------------------- | ----------------------------------------------------------- |

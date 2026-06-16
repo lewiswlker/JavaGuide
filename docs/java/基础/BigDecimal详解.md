@@ -147,7 +147,7 @@ System.out.println(n);// 1.255
 
 《阿里巴巴 Java 开发手册》中提到：
 
-![](https://oss.javaguide.cn/github/项目介绍/java/基础/image-20220714161315993.png)
+![](https://oss.javaguide.cn/github/javaguide/java/basis/image-20220714161315993.png)
 
 `BigDecimal` 使用 `equals()` 方法进行等值比较出现问题的代码示例：
 
@@ -161,7 +161,7 @@ System.out.println(a.equals(b));//false
 
 1.0 的 scale 是 1，1 的 scale 是 0，因此 `a.equals(b)` 的结果是 false。
 
-![](https://oss.javaguide.cn/github/项目介绍/java/基础/image-20220714164706390.png)
+![](https://oss.javaguide.cn/github/javaguide/java/basis/image-20220714164706390.png)
 
 `compareTo()` 方法可以比较两个 `BigDecimal` 的值，如果相等就返回 0，如果第 1 个数比第 2 个数大则返回 1，反之返回-1。
 
@@ -358,7 +358,7 @@ public class BigDecimalUtil {
 
 相关 issue：[建议对保留规则设置为 RoundingMode.HALF_EVEN,即四舍六入五成双,#2129](https://github.com/Snailclimb/JavaGuide/issues/2129) 。
 
-![RoundingMode.HALF_EVEN](https://oss.javaguide.cn/github/项目介绍/java/基础/RoundingMode.HALF_EVEN.png)
+![RoundingMode.HALF_EVEN](https://oss.javaguide.cn/github/javaguide/java/basis/RoundingMode.HALF_EVEN.png)
 
 ## 总结
 

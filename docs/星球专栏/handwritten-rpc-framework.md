@@ -16,7 +16,7 @@ head:
 
 ## 内容概览
 
-![](https://oss.javaguide.cn/github/项目介绍/image-20220308100605485.png)
+![](https://oss.javaguide.cn/github/javaguide/image-20220308100605485.png)
 
 通过这个简易的轮子，你可以学到 RPC 的底层原理以及各种 Java 编码实践的运用。你甚至可以把它当做你的毕设或项目经验，这是非常不错的选择！对比其他求职者的项目经验都是各种系统，造轮子肯定是更加能赢得面试官的青睐。
 

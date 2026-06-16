@@ -48,7 +48,7 @@ category: 走近作者
 
 ::: center
 
-![](https://oss.javaguide.cn/github/项目介绍/gongzhonghaoxuanchuan.png)
+![](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
 
 :::
 
@@ -68,4 +68,4 @@ category: 走近作者
 
 生活本就是有苦有甜。共勉！
 
-![JavaGuide 官方公众号](https://oss.javaguide.cn/github/项目介绍/gongzhonghaoxuanchuan.png)
+![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)

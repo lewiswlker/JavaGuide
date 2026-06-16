@@ -24,7 +24,7 @@ JDK 9 不是 LTS（长期支持版），至此为止，目前有 JDK8、JDK11、
 
 下图是从 JDK 8 到 JDK 25 每个版本的更新带来的新特性数量和更新时间：
 
-![](https://oss.javaguide.cn/github/项目介绍/java/新特性/jdk8~jdk24.png)
+![](https://oss.javaguide.cn/github/javaguide/java/new-features/jdk8~jdk24.png)
 
 ## JEP 222: Java Shell Tool (JShell)
 

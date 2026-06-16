@@ -14,7 +14,7 @@ head:
 
 **CC GUI**（原名 Claude Code GUI，后为规避商标风险改名）是一款 **MIT 协议、100% 开源** 的 JetBrains 插件，为 Claude Code 和 OpenAI Codex 提供 GUI 可视化界面。
 
-![CC GUI Github 项目界面](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/cc-gui-github-project.png)
+![CC GUI Github 项目界面](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/cc-gui-github-project.png)
 
 项目地址：**https://github.com/zhukunpenglinyutong/jetbrains-cc-gui** 。
 
@@ -43,15 +43,15 @@ CC GUI 的核心能力可以概括为以下几点：
 
 打开 IDEA，进入 **Settings → Plugins**（快捷键 `Cmd + ,`），搜索 **CC GUI** 安装即可。
 
-![IDEA 插件 CC GUI](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/idea-plugin-cc-gui.png)
+![IDEA 插件 CC GUI](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/idea-plugin-cc-gui.png)
 
 安装完成之后，你可以在 IDEA 右侧工具栏找到 CC GUI 入口，点击图标即可打开。
 
-![IDEA CC GUI 入口](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/idea-cc-gui-entry.png)
+![IDEA CC GUI 入口](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/idea-cc-gui-entry.png)
 
 首次使用会提示安装 Claude Code/Codex SDK。这是 Agent 运行的基础，点击安装即可，大概 20 秒完成。
 
-![成功安装 Claude Code/Codex SDK](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/sdk-installed-success.png)
+![成功安装 Claude Code/Codex SDK](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/sdk-installed-success.png)
 
 **遇到黑屏？** 部分用户在 IDEA 2026.1 上打开 CC GUI 面板时会出现黑屏。
 
@@ -77,7 +77,7 @@ CC GUI 的核心能力可以概括为以下几点：
 
 这里我们选择直接导入 cc-switch 配置，非常简单方便，体验很好。
 
-![直接导入 cc-switch 配置](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/cc-switch-config-import.png)
+![直接导入 cc-switch 配置](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/cc-switch-config-import.png)
 
 ### 第三步：开始使用
 
@@ -104,7 +104,7 @@ CC GUI 支持 **Skill（斜杠命令）**，可以把特定的审查流程固化
 | 低     | 字体资源未用 try-with-resources                      | PdfExportService              | 1 处 |
 | 低     | DateTimeFormatter 每次调用重复创建                   | FileStorageService            | 1 处 |
 
-![java-coding-standards 结构化的审查报告](https://oss.javaguide.cn/github/项目介绍/AI/coding/claudecode/java-coding-standards-structured-review-report.png)
+![java-coding-standards 结构化的审查报告](https://oss.javaguide.cn/github/javaguide/ai/coding/claudecode/java-coding-standards-structured-review-report.png)
 
 拿到报告后，直接说“开始执行修复”，AI 会逐文件逐一修改。每个修改都可以在 Diff 面板里审查——改了哪行、改成什么、为什么改，一目了然。
 
@@ -121,15 +121,15 @@ CC GUI 支持 **Skill（斜杠命令）**，可以把特定的审查流程固化
 
 CC GUI 还内置了使用统计功能，可以清晰看到 Token 消耗、费用统计和使用趋势分析。
 
-![CC GUI 使用统计](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/cc-gui-usage-stats.png)
+![CC GUI 使用统计](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/cc-gui-usage-stats.png)
 
 还支持 Commit AI、自定义智能体、维护提示词库、添加 MCP 服务器等功能。
 
-![CC GUI Commit AI](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/cc-gui-commit-ai.png)
+![CC GUI Commit AI](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/cc-gui-commit-ai.png)
 
 并且，你还可以看到历史消息，支持搜索和删除：
 
-![Claude Code 历史消息](https://oss.javaguide.cn/github/项目介绍/AI/cc-guide/claude-code-history.png)
+![Claude Code 历史消息](https://oss.javaguide.cn/github/javaguide/ai/cc-guide/claude-code-history.png)
 
 ## CC GUI 和 Qoder 怎么选？
 

@@ -30,7 +30,7 @@ tag:
 
 起初的时候，自己就是玩玩流行蝴蝶剑、单机摩托之类的单机游戏。但是，也没有到沉迷的地步，只是觉得这东西确实挺好玩的，一玩就可以玩一下午，恋恋不舍。
 
-![](https://oss.javaguide.cn/github/项目介绍/books2a6021b9-e7a0-41c4-b69e-a652f7bc3e12-20200802173601289.png)
+![](https://oss.javaguide.cn/github/javaguide/books2a6021b9-e7a0-41c4-b69e-a652f7bc3e12-20200802173601289.png)
 
 ## 小学毕业后开始有网瘾
 

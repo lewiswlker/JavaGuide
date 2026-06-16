@@ -20,7 +20,7 @@ head:
 
 我平时用 Claude Code，经常会同时开几个会话：一个开发新功能，一个重构，一个跑测试，一个看报错，另一个整理 PR 评论或补文档。
 
-![开启多个命令行窗口，让多个 Agent 在不同会话中并行](https://oss.javaguide.cn/github/项目介绍/AI/coding/claudecode/multi-agent-parallel-sessions.png)
+![开启多个命令行窗口，让多个 Agent 在不同会话中并行](https://oss.javaguide.cn/github/javaguide/ai/coding/claudecode/multi-agent-parallel-sessions.png)
 
 以前这么用其实挺累。
 
@@ -62,7 +62,7 @@ claude agents
 - **最后一次响应的概览**：就是 Claude 最近一轮的做了啥
 - **相对时间**：右侧显示最后交互的相对时间（如 `4h`）
 
-![终端直接运行 claude agents 即可进入](https://oss.javaguide.cn/github/项目介绍/AI/coding/claudecode/claude-agents-list-view.png)
+![终端直接运行 claude agents 即可进入](https://oss.javaguide.cn/github/javaguide/ai/coding/claudecode/claude-agents-list-view.png)
 
 这其实就是一个“Agent 控制台”。
 
@@ -70,7 +70,7 @@ claude agents
 
 只需要用鼠标点击对应的会话或者上下键移动到对应的会话按 `Enter`，即可进入。
 
-![进入指定的 Agent 会话](https://oss.javaguide.cn/github/项目介绍/AI/coding/claudecode/enter-agent-session.png)
+![进入指定的 Agent 会话](https://oss.javaguide.cn/github/javaguide/ai/coding/claudecode/enter-agent-session.png)
 
 ## 状态图标
 
@@ -78,7 +78,7 @@ Agent View 里最重要的东西，不是会话名，也不是最后一条摘要
 
 它决定了你现在要不要介入。
 
-![Claude Code Agent View](https://oss.javaguide.cn/github/项目介绍/AI/coding/claudecode/claude-agents-list-view-20260518102539932.png)
+![Claude Code Agent View](https://oss.javaguide.cn/github/javaguide/ai/coding/claudecode/claude-agents-list-view-20260518102539932.png)
 
 核心就记住三个：
 
@@ -98,7 +98,7 @@ Agent View 里还有一个很实用的能力：**Peek & Reply**。
 
 选中一个会话后，按空格键 `Space`，底部会弹出一个 peek panel，展示该会话最近一轮内容。
 
-![Agent View  选中一个会话空格键弹出一个 peek panel](https://oss.javaguide.cn/github/项目介绍/AI/coding/claudecode/peek-panel-reply.png)
+![Agent View  选中一个会话空格键弹出一个 peek panel](https://oss.javaguide.cn/github/javaguide/ai/coding/claudecode/peek-panel-reply.png)
 
 如果 Claude 只是等一个简单确认，比如：是否允许修改这个文件？
 
@@ -139,7 +139,7 @@ Agent View 还有一个很重要的配套能力：**后台会话。**
 
 这会把当前会话后台化，然后返回 Agent View。
 
-![/bg 把任务甩到后台里跑](https://oss.javaguide.cn/github/项目介绍/AI/coding/claudecode/bg-background-session.png)
+![/bg 把任务甩到后台里跑](https://oss.javaguide.cn/github/javaguide/ai/coding/claudecode/bg-background-session.png)
 
 第二种方式，是从终端直接启动一个后台会话：
 
